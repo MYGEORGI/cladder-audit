@@ -1,0 +1,46 @@
+{
+ "counts": {
+  "E agree": 9952,
+  "E contradict": 122,
+  "E undecidable": 38,
+  "E|R agree|agree": 9554,
+  "E|R agree|undecidable": 398,
+  "E|R contradict|contradict": 26,
+  "E|R contradict|undecidable": 96,
+  "E|R undecidable|undecidable": 38,
+  "R agree": 9554,
+  "R contradict": 26,
+  "R undecidable": 532
+ },
+ "reading_R_by_query_type": {
+  "ate agree": 1351,
+  "ate undecidable": 71,
+  "backadj agree": 1580,
+  "collider_bias agree": 158,
+  "correlation agree": 1161,
+  "correlation undecidable": 261,
+  "det-counterfactual agree": 1422,
+  "ett agree": 1201,
+  "ett contradict": 4,
+  "ett undecidable": 59,
+  "exp_away agree": 136,
+  "exp_away undecidable": 22,
+  "marginal agree": 1515,
+  "marginal contradict": 9,
+  "marginal undecidable": 56,
+  "nde agree": 295,
+  "nde contradict": 5,
+  "nde undecidable": 16,
+  "nie agree": 735,
+  "nie contradict": 8,
+  "nie undecidable": 47
+ },
+ "planted_flip": {
+  "E agree contradict": 9952,
+  "E contradict agree": 122,
+  "E undecidable undecidable": 38,
+  "R agree contradict": 9554,
+  "R contradict agree": 26,
+  "R undecidable undecidable": 532
+ }
+}

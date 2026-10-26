@@ -1,0 +1,830 @@
+id,rung,query_type,graph_id,story_id,label,category,detail
+275,1,marginal,diamondcut,firing_employee,yes,source_alias_collision,
+276,1,correlation,diamondcut,firing_employee,yes,source_alias_collision,
+278,3,ett,diamondcut,firing_employee,yes,source_alias_collision,
+279,1,marginal,diamondcut,firing_employee,yes,source_alias_collision,
+281,1,correlation,diamondcut,firing_employee,no,source_alias_collision,
+282,2,backadj,diamondcut,firing_employee,no,source_alias_collision,
+284,3,ett,diamondcut,firing_employee,no,source_alias_collision,
+286,2,ate,diamondcut,firing_employee,yes,source_alias_collision,
+287,2,ate,diamondcut,firing_employee,no,source_alias_collision,
+289,1,correlation,diamondcut,firing_employee,no,source_alias_collision,
+290,1,correlation,diamondcut,firing_employee,no,source_alias_collision,
+291,2,ate,diamondcut,firing_employee,yes,source_alias_collision,
+292,3,ett,diamondcut,firing_employee,no,source_alias_collision,
+293,1,marginal,diamondcut,firing_employee,no,source_alias_collision,
+294,1,marginal,diamondcut,firing_employee,yes,source_alias_collision,
+295,1,correlation,diamondcut,firing_employee,no,source_alias_collision,
+297,3,ett,diamondcut,firing_employee,no,source_alias_collision,
+300,2,ate,diamondcut,firing_employee,no,source_alias_collision,
+302,2,backadj,diamondcut,firing_employee,no,source_alias_collision,
+304,1,correlation,diamondcut,firing_employee,yes,source_alias_collision,
+307,2,ate,diamondcut,firing_employee,yes,source_alias_collision,
+308,3,ett,diamondcut,firing_employee,no,source_alias_collision,
+309,1,marginal,diamondcut,firing_employee,no,source_alias_collision,
+312,2,ate,diamondcut,firing_employee,no,source_alias_collision,
+313,3,ett,diamondcut,firing_employee,no,source_alias_collision,
+315,2,backadj,diamondcut,firing_employee,yes,source_alias_collision,
+318,1,marginal,diamondcut,firing_employee,no,source_alias_collision,
+321,2,ate,diamondcut,firing_employee,no,source_alias_collision,
+322,1,marginal,diamondcut,firing_employee,no,source_alias_collision,
+323,1,marginal,diamondcut,firing_employee,yes,source_alias_collision,
+324,2,backadj,diamondcut,firing_employee,no,source_alias_collision,
+325,2,backadj,diamondcut,firing_employee,yes,source_alias_collision,
+327,3,ett,diamondcut,firing_employee,yes,source_alias_collision,
+332,1,marginal,diamondcut,firing_employee,no,source_alias_collision,
+333,1,correlation,diamondcut,firing_employee,yes,source_alias_collision,
+334,2,ate,diamondcut,firing_employee,yes,source_alias_collision,
+335,3,ett,diamondcut,firing_employee,no,source_alias_collision,
+336,1,correlation,diamondcut,firing_employee,yes,source_alias_collision,
+337,1,correlation,diamondcut,firing_employee,no,source_alias_collision,
+338,2,backadj,diamondcut,firing_employee,no,source_alias_collision,
+340,2,ate,diamondcut,firing_employee,no,source_alias_collision,
+341,3,ett,diamondcut,firing_employee,yes,source_alias_collision,
+342,1,marginal,diamondcut,firing_employee,yes,source_alias_collision,
+344,2,backadj,diamondcut,firing_employee,no,source_alias_collision,
+346,3,ett,diamondcut,firing_employee,yes,source_alias_collision,
+347,1,correlation,diamondcut,firing_employee,yes,source_alias_collision,
+348,1,correlation,diamondcut,firing_employee,no,source_alias_collision,
+349,2,ate,diamondcut,firing_employee,yes,source_alias_collision,
+350,3,ett,diamondcut,firing_employee,no,source_alias_collision,
+351,3,ett,diamondcut,firing_employee,yes,source_alias_collision,
+352,1,correlation,diamondcut,firing_employee,yes,source_alias_collision,
+355,3,ett,diamondcut,firing_employee,no,source_alias_collision,
+356,1,marginal,diamondcut,firing_employee,no,source_alias_collision,
+357,1,marginal,diamondcut,firing_employee,yes,source_alias_collision,
+358,2,backadj,diamondcut,firing_employee,yes,source_alias_collision,
+363,2,ate,diamondcut,firing_employee,no,source_alias_collision,
+364,3,ett,diamondcut,firing_employee,yes,source_alias_collision,
+365,1,marginal,diamondcut,firing_employee,yes,source_alias_collision,
+366,1,correlation,diamondcut,firing_employee,yes,source_alias_collision,
+368,1,marginal,diamondcut,firing_employee,yes,source_alias_collision,
+370,3,ett,diamondcut,firing_employee,yes,source_alias_collision,
+371,1,correlation,diamondcut,firing_employee,yes,source_alias_collision,
+372,3,ett,diamondcut,firing_employee,no,source_alias_collision,
+374,1,correlation,diamondcut,firing_employee,yes,source_alias_collision,
+378,2,ate,diamondcut,firing_employee,no,source_alias_collision,
+380,3,ett,diamondcut,firing_employee,yes,source_alias_collision,
+381,3,ett,diamondcut,firing_employee,no,source_alias_collision,
+382,3,ett,diamondcut,firing_employee,yes,source_alias_collision,
+383,1,marginal,diamondcut,firing_employee,yes,source_alias_collision,
+386,1,marginal,diamondcut,firing_employee,no,source_alias_collision,
+389,2,backadj,diamondcut,firing_employee,no,source_alias_collision,
+548,1,correlation,diamond,floor_wet,no,precision_conflict,"{""label"": ""no"", ""answer"": ""yes"", ""status"": ""ANSWER"", ""recipe"": ""correlation""}"
+997,1,correlation,fork,getting_tanned,yes,degenerate_premise,"{""label"": ""yes"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""ZERO_DENOMINATOR"", ""recipe"": ""correlation""}"
+1026,1,correlation,mediation,penguin,no,precision_conflict,"{""label"": ""no"", ""answer"": ""yes"", ""status"": ""ANSWER"", ""recipe"": ""correlation""}"
+1121,2,ate,mediation,penguin,yes,precision_conflict,"{""label"": ""yes"", ""answer"": ""no"", ""status"": ""ANSWER"", ""recipe"": ""no_confounding""}"
+1179,2,ate,diamond,vaccine_kills,no,source_alias_collision,
+1181,3,nie,diamond,vaccine_kills,no,source_alias_collision,
+1183,1,correlation,diamond,vaccine_kills,no,source_alias_collision,
+1184,2,backadj,diamond,vaccine_kills,no,source_alias_collision,
+1185,2,ate,diamond,vaccine_kills,yes,source_alias_collision,
+1186,3,ett,diamond,vaccine_kills,no,source_alias_collision,
+1187,3,ett,diamond,vaccine_kills,yes,source_alias_collision,
+1189,1,marginal,diamond,vaccine_kills,no,source_alias_collision,
+1191,2,backadj,diamond,vaccine_kills,no,source_alias_collision,
+1194,3,ett,diamond,vaccine_kills,no,source_alias_collision,
+1196,1,marginal,diamond,vaccine_kills,yes,source_alias_collision,
+1199,3,ett,diamond,vaccine_kills,no,source_alias_collision,
+1201,3,nie,diamond,vaccine_kills,yes,source_alias_collision,
+1203,2,ate,diamond,vaccine_kills,yes,source_alias_collision,
+1205,3,ett,diamond,vaccine_kills,yes,source_alias_collision,
+1210,2,backadj,diamond,vaccine_kills,no,source_alias_collision,
+1215,2,ate,diamond,vaccine_kills,yes,source_alias_collision,
+1216,3,nie,diamond,vaccine_kills,no,source_alias_collision,
+1218,1,correlation,diamond,vaccine_kills,yes,source_alias_collision,
+1221,3,ett,diamond,vaccine_kills,yes,source_alias_collision,
+1224,2,backadj,diamond,vaccine_kills,yes,source_alias_collision,
+1237,1,marginal,diamond,vaccine_kills,yes,source_alias_collision,
+1239,2,backadj,diamond,vaccine_kills,yes,source_alias_collision,
+1240,2,ate,diamond,vaccine_kills,no,source_alias_collision,
+1242,1,marginal,diamond,vaccine_kills,no,source_alias_collision,
+1244,2,ate,diamond,vaccine_kills,yes,source_alias_collision,
+1245,3,ett,diamond,vaccine_kills,no,source_alias_collision,
+1246,3,ett,diamond,vaccine_kills,yes,source_alias_collision,
+1247,1,marginal,diamond,vaccine_kills,no,source_alias_collision,
+1248,1,correlation,diamond,vaccine_kills,yes,source_alias_collision,
+1253,3,nie,diamond,vaccine_kills,yes,source_alias_collision,
+1260,3,nie,diamond,vaccine_kills,no,source_alias_collision,
+1266,1,correlation,diamond,vaccine_kills,yes,precision_conflict,"{""label"": ""yes"", ""answer"": ""no"", ""status"": ""ANSWER"", ""recipe"": ""correlation""}"
+1266,1,correlation,diamond,vaccine_kills,yes,source_alias_collision,
+1268,2,ate,diamond,vaccine_kills,yes,source_alias_collision,
+1274,2,ate,diamond,vaccine_kills,yes,source_alias_collision,
+1278,2,ate,diamond,vaccine_kills,yes,source_alias_collision,
+1283,3,nie,diamond,vaccine_kills,no,source_alias_collision,
+1284,1,correlation,diamond,vaccine_kills,no,source_alias_collision,
+1285,2,ate,diamond,vaccine_kills,no,source_alias_collision,
+1289,3,ett,diamond,vaccine_kills,yes,source_alias_collision,
+1291,1,correlation,diamond,vaccine_kills,no,source_alias_collision,
+1299,1,correlation,diamond,vaccine_kills,yes,source_alias_collision,
+1305,3,ett,diamond,vaccine_kills,no,source_alias_collision,
+1307,1,marginal,diamond,vaccine_kills,yes,source_alias_collision,
+1311,2,ate,diamond,vaccine_kills,yes,source_alias_collision,
+1315,1,marginal,diamond,vaccine_kills,no,source_alias_collision,
+1319,3,nie,diamond,vaccine_kills,no,precision_conflict,"{""label"": ""no"", ""answer"": ""yes"", ""status"": ""ANSWER"", ""recipe"": ""no_confounding""}"
+1319,3,nie,diamond,vaccine_kills,no,source_alias_collision,
+1377,1,marginal,mediation,blood_pressure,no,precision_conflict,"{""label"": ""no"", ""answer"": ""yes"", ""status"": ""ANSWER"", ""recipe"": ""marginal""}"
+1455,3,nde,mediation,blood_pressure,no,precision_conflict,"{""label"": ""no"", ""answer"": ""yes"", ""status"": ""ANSWER"", ""recipe"": ""nde_mediation""}"
+1475,1,correlation,mediation,blood_pressure,no,precision_conflict,"{""label"": ""no"", ""answer"": ""yes"", ""status"": ""ANSWER"", ""recipe"": ""correlation""}"
+1888,1,marginal,IV,college_wage,no,precision_conflict,"{""label"": ""no"", ""answer"": ""yes"", ""status"": ""ANSWER"", ""recipe"": ""marginal""}"
+1953,1,marginal,collision,elite_students,yes,precision_conflict,"{""label"": ""yes"", ""answer"": ""no"", ""status"": ""ANSWER"", ""recipe"": ""marginal""}"
+2142,1,marginal,mediation,encouagement_program,no,precision_conflict,"{""label"": ""no"", ""answer"": ""yes"", ""status"": ""ANSWER"", ""recipe"": ""marginal""}"
+2143,1,marginal,mediation,encouagement_program,yes,precision_conflict,"{""label"": ""yes"", ""answer"": ""no"", ""status"": ""ANSWER"", ""recipe"": ""marginal""}"
+2166,3,nde,mediation,gender_admission,no,precision_conflict,"{""label"": ""no"", ""answer"": ""yes"", ""status"": ""ANSWER"", ""recipe"": ""nde_mediation""}"
+2318,3,nde,arrowhead,gender_admission_state,no,source_arithmetic,"{""label"": ""no"", ""answer"": ""yes"", ""status"": ""ANSWER"", ""recipe"": ""nde_arrowhead""}"
+2569,3,nie,arrowhead,gender_pay,no,source_arithmetic,"{""label"": ""no"", ""answer"": ""yes"", ""status"": ""ANSWER"", ""recipe"": ""nie_arrowhead""}"
+2730,1,marginal,collision,man_in_relationship,yes,precision_conflict,"{""label"": ""yes"", ""answer"": ""no"", ""status"": ""ANSWER"", ""recipe"": ""marginal""}"
+2857,3,nie,arrowhead,nature_vs_nurture,no,source_arithmetic,"{""label"": ""no"", ""answer"": ""yes"", ""status"": ""ANSWER"", ""recipe"": ""nie_arrowhead""}"
+2892,3,nie,arrowhead,nature_vs_nurture,no,source_arithmetic,"{""label"": ""no"", ""answer"": ""yes"", ""status"": ""ANSWER"", ""recipe"": ""nie_arrowhead""}"
+3569,3,ett,confounding,simpson_drug,yes,source_missing_term,"{""label"": ""yes"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+3621,3,ett,confounding,simpson_drug,no,source_missing_term,"{""label"": ""no"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+3630,3,ett,confounding,simpson_drug,no,source_missing_term,"{""label"": ""no"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+3668,3,ett,confounding,simpson_hospital,no,source_missing_term,"{""label"": ""no"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+3705,3,ett,confounding,simpson_hospital,no,source_missing_term,"{""label"": ""no"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+3722,3,ett,confounding,simpson_hospital,no,source_missing_term,"{""label"": ""no"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+3766,3,ett,confounding,simpson_kidneystone,no,source_missing_term,"{""label"": ""no"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+3809,1,marginal,confounding,simpson_kidneystone,no,precision_conflict,"{""label"": ""no"", ""answer"": ""yes"", ""status"": ""ANSWER"", ""recipe"": ""marginal""}"
+3847,3,ett,confounding,simpson_kidneystone,no,source_missing_term,"{""label"": ""no"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+3887,3,ett,confounding,simpson_vaccine,yes,source_missing_term,"{""label"": ""yes"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+3911,3,ett,confounding,simpson_vaccine,yes,source_missing_term,"{""label"": ""yes"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+3916,3,ett,confounding,simpson_vaccine,yes,source_missing_term,"{""label"": ""yes"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+3944,3,ett,confounding,simpson_vaccine,no,source_missing_term,"{""label"": ""no"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+3954,3,ett,confounding,simpson_vaccine,no,source_missing_term,"{""label"": ""no"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+3998,3,ett,confounding,simpson_vaccine,no,source_missing_term,"{""label"": ""no"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+4218,1,marginal,frontdoor,smoking_frontdoor,yes,source_arithmetic,"{""label"": ""yes"", ""answer"": ""no"", ""status"": ""ANSWER"", ""recipe"": ""marginal""}"
+4243,1,marginal,frontdoor,smoking_frontdoor,yes,precision_conflict,"{""label"": ""yes"", ""answer"": ""no"", ""status"": ""ANSWER"", ""recipe"": ""marginal""}"
+5081,3,ett,diamondcut,firing_employee,yes,source_alias_collision,
+5084,2,backadj,diamondcut,firing_employee,no,source_alias_collision,
+5086,3,ett,diamondcut,firing_employee,yes,source_alias_collision,
+5087,1,marginal,diamondcut,firing_employee,yes,source_alias_collision,
+5089,1,correlation,diamondcut,firing_employee,no,source_alias_collision,
+5090,2,backadj,diamondcut,firing_employee,no,source_alias_collision,
+5092,2,ate,diamondcut,firing_employee,yes,source_alias_collision,
+5094,1,correlation,diamondcut,firing_employee,yes,source_alias_collision,
+5097,1,correlation,diamondcut,firing_employee,no,source_alias_collision,
+5098,2,backadj,diamondcut,firing_employee,no,source_alias_collision,
+5099,2,backadj,diamondcut,firing_employee,yes,source_alias_collision,
+5100,1,correlation,diamondcut,firing_employee,yes,source_alias_collision,
+5106,2,ate,diamondcut,firing_employee,yes,source_alias_collision,
+5107,3,ett,diamondcut,firing_employee,yes,source_alias_collision,
+5108,2,backadj,diamondcut,firing_employee,no,source_alias_collision,
+5109,2,backadj,diamondcut,firing_employee,yes,source_alias_collision,
+5110,2,ate,diamondcut,firing_employee,no,source_alias_collision,
+5112,2,ate,diamondcut,firing_employee,no,source_alias_collision,
+5114,3,ett,diamondcut,firing_employee,yes,source_alias_collision,
+5115,1,marginal,diamondcut,firing_employee,yes,source_alias_collision,
+5116,2,ate,diamondcut,firing_employee,no,source_alias_collision,
+5117,2,ate,diamondcut,firing_employee,yes,source_alias_collision,
+5119,1,marginal,diamondcut,firing_employee,yes,source_alias_collision,
+5120,1,marginal,diamondcut,firing_employee,no,source_alias_collision,
+5121,2,ate,diamondcut,firing_employee,no,source_alias_collision,
+5122,3,ett,diamondcut,firing_employee,yes,source_alias_collision,
+5123,1,correlation,diamondcut,firing_employee,no,source_alias_collision,
+5126,2,backadj,diamondcut,firing_employee,no,source_alias_collision,
+5127,2,backadj,diamondcut,firing_employee,yes,source_alias_collision,
+5128,2,ate,diamondcut,firing_employee,no,source_alias_collision,
+5129,2,ate,diamondcut,firing_employee,yes,source_alias_collision,
+5130,3,ett,diamondcut,firing_employee,no,source_alias_collision,
+5131,1,marginal,diamondcut,firing_employee,no,source_alias_collision,
+5132,1,correlation,diamondcut,firing_employee,yes,source_alias_collision,
+5133,2,ate,diamondcut,firing_employee,no,source_alias_collision,
+5134,2,ate,diamondcut,firing_employee,yes,source_alias_collision,
+5135,1,marginal,diamondcut,firing_employee,no,source_alias_collision,
+5136,1,correlation,diamondcut,firing_employee,no,source_alias_collision,
+5137,2,backadj,diamondcut,firing_employee,yes,source_alias_collision,
+5138,3,ett,diamondcut,firing_employee,yes,source_alias_collision,
+5139,3,ett,diamondcut,firing_employee,no,source_alias_collision,
+5140,1,marginal,diamondcut,firing_employee,yes,source_alias_collision,
+5143,2,ate,diamondcut,firing_employee,no,source_alias_collision,
+5144,2,ate,diamondcut,firing_employee,yes,source_alias_collision,
+5145,1,correlation,diamondcut,firing_employee,yes,source_alias_collision,
+5146,2,backadj,diamondcut,firing_employee,no,source_alias_collision,
+5150,2,backadj,diamondcut,firing_employee,no,source_alias_collision,
+5151,2,ate,diamondcut,firing_employee,yes,source_alias_collision,
+5153,2,ate,diamondcut,firing_employee,yes,source_alias_collision,
+5154,3,ett,diamondcut,firing_employee,no,source_alias_collision,
+5157,1,marginal,diamondcut,firing_employee,no,source_alias_collision,
+5158,1,correlation,diamondcut,firing_employee,no,source_alias_collision,
+5160,2,backadj,diamondcut,firing_employee,no,source_alias_collision,
+5162,1,marginal,diamondcut,firing_employee,no,source_alias_collision,
+5166,2,ate,diamondcut,firing_employee,no,source_alias_collision,
+5169,2,backadj,diamondcut,firing_employee,yes,source_alias_collision,
+5170,2,ate,diamondcut,firing_employee,no,source_alias_collision,
+5171,1,correlation,diamondcut,firing_employee,no,source_alias_collision,
+5173,3,ett,diamondcut,firing_employee,yes,source_alias_collision,
+5174,1,marginal,diamondcut,firing_employee,yes,source_alias_collision,
+5176,2,backadj,diamondcut,firing_employee,yes,source_alias_collision,
+5177,2,ate,diamondcut,firing_employee,yes,source_alias_collision,
+5179,2,backadj,diamondcut,firing_employee,no,source_alias_collision,
+5181,1,correlation,diamondcut,firing_employee,yes,source_alias_collision,
+5182,2,backadj,diamondcut,firing_employee,yes,source_alias_collision,
+5183,3,ett,diamondcut,firing_employee,no,source_alias_collision,
+5184,1,correlation,diamondcut,firing_employee,yes,source_alias_collision,
+5187,1,marginal,diamondcut,firing_employee,yes,source_alias_collision,
+5188,1,marginal,diamondcut,firing_employee,no,source_alias_collision,
+5189,1,correlation,diamondcut,firing_employee,no,source_alias_collision,
+5193,1,marginal,diamondcut,firing_employee,no,source_alias_collision,
+5194,1,correlation,diamondcut,firing_employee,no,source_alias_collision,
+5341,1,correlation,diamond,floor_wet,yes,precision_conflict,"{""label"": ""yes"", ""answer"": ""no"", ""status"": ""ANSWER"", ""recipe"": ""correlation""}"
+5370,1,correlation,diamond,floor_wet,no,precision_conflict,"{""label"": ""no"", ""answer"": ""yes"", ""status"": ""ANSWER"", ""recipe"": ""correlation""}"
+5372,1,correlation,diamond,floor_wet,yes,precision_conflict,"{""label"": ""yes"", ""answer"": ""no"", ""status"": ""ANSWER"", ""recipe"": ""correlation""}"
+5570,1,correlation,fork,forest_fire,yes,degenerate_premise,"{""label"": ""yes"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""ZERO_DENOMINATOR"", ""recipe"": ""correlation""}"
+5814,1,correlation,fork,getting_tanned,yes,degenerate_premise,"{""label"": ""yes"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""ZERO_DENOMINATOR"", ""recipe"": ""correlation""}"
+5957,3,nie,mediation,penguin,no,precision_conflict,"{""label"": ""no"", ""answer"": ""yes"", ""status"": ""ANSWER"", ""recipe"": ""nie_mediation""}"
+5975,3,ett,diamond,vaccine_kills,yes,source_alias_collision,
+5978,3,ett,diamond,vaccine_kills,no,source_alias_collision,
+5982,1,marginal,diamond,vaccine_kills,no,source_alias_collision,
+5985,1,marginal,diamond,vaccine_kills,no,source_alias_collision,
+5987,2,backadj,diamond,vaccine_kills,no,source_alias_collision,
+5991,3,nie,diamond,vaccine_kills,yes,source_alias_collision,
+5993,1,correlation,diamond,vaccine_kills,yes,precision_conflict,"{""label"": ""yes"", ""answer"": ""no"", ""status"": ""ANSWER"", ""recipe"": ""correlation""}"
+5993,1,correlation,diamond,vaccine_kills,yes,source_alias_collision,
+5997,1,correlation,diamond,vaccine_kills,yes,source_alias_collision,
+6000,2,ate,diamond,vaccine_kills,no,source_alias_collision,
+6007,3,nie,diamond,vaccine_kills,yes,source_alias_collision,
+6008,2,backadj,diamond,vaccine_kills,yes,source_alias_collision,
+6009,2,ate,diamond,vaccine_kills,yes,source_alias_collision,
+6012,1,marginal,diamond,vaccine_kills,yes,source_alias_collision,
+6014,3,nie,diamond,vaccine_kills,no,source_alias_collision,
+6015,2,backadj,diamond,vaccine_kills,no,source_alias_collision,
+6018,1,correlation,diamond,vaccine_kills,no,source_alias_collision,
+6020,3,ett,diamond,vaccine_kills,no,source_alias_collision,
+6021,1,correlation,diamond,vaccine_kills,yes,source_alias_collision,
+6028,2,backadj,diamond,vaccine_kills,yes,source_alias_collision,
+6029,3,ett,diamond,vaccine_kills,no,source_alias_collision,
+6031,3,nie,diamond,vaccine_kills,no,source_alias_collision,
+6033,1,correlation,diamond,vaccine_kills,no,source_alias_collision,
+6038,2,ate,diamond,vaccine_kills,yes,source_alias_collision,
+6046,2,ate,diamond,vaccine_kills,yes,source_alias_collision,
+6051,3,ett,diamond,vaccine_kills,yes,source_alias_collision,
+6055,1,marginal,diamond,vaccine_kills,no,source_alias_collision,
+6057,3,nie,diamond,vaccine_kills,yes,source_alias_collision,
+6058,1,marginal,diamond,vaccine_kills,no,source_alias_collision,
+6059,1,correlation,diamond,vaccine_kills,yes,source_alias_collision,
+6065,1,correlation,diamond,vaccine_kills,yes,source_alias_collision,
+6067,2,ate,diamond,vaccine_kills,no,source_alias_collision,
+6068,3,nie,diamond,vaccine_kills,yes,source_alias_collision,
+6073,1,correlation,diamond,vaccine_kills,no,source_alias_collision,
+6078,3,nie,diamond,vaccine_kills,no,source_alias_collision,
+6080,1,marginal,diamond,vaccine_kills,no,source_alias_collision,
+6084,3,nie,diamond,vaccine_kills,no,source_alias_collision,
+6085,1,marginal,diamond,vaccine_kills,yes,source_alias_collision,
+6087,2,backadj,diamond,vaccine_kills,yes,source_alias_collision,
+6091,2,ate,diamond,vaccine_kills,yes,source_alias_collision,
+6096,1,correlation,diamond,vaccine_kills,yes,source_alias_collision,
+6099,3,ett,diamond,vaccine_kills,no,source_alias_collision,
+6410,2,ate,IV,cholesterol,yes,precision_conflict,"{""label"": ""yes"", ""answer"": ""no"", ""status"": ""ANSWER"", ""recipe"": ""iv_wald""}"
+7390,1,correlation,arrowhead,gender_pay,yes,precision_conflict,"{""label"": ""yes"", ""answer"": ""no"", ""status"": ""ANSWER"", ""recipe"": ""correlation""}"
+7519,1,exp_away,collision,man_in_relationship,yes,precision_conflict,"{""label"": ""yes"", ""answer"": ""no"", ""status"": ""ANSWER"", ""recipe"": ""exp_away""}"
+7605,1,correlation,arrowhead,nature_vs_nurture,no,precision_conflict,"{""label"": ""no"", ""answer"": ""yes"", ""status"": ""ANSWER"", ""recipe"": ""correlation""}"
+7892,1,correlation,mediation,neg_mediation,no,precision_conflict,"{""label"": ""no"", ""answer"": ""yes"", ""status"": ""ANSWER"", ""recipe"": ""correlation""}"
+7961,3,nde,arrowhead,obesity_mortality,yes,precision_conflict,"{""label"": ""yes"", ""answer"": ""no"", ""status"": ""ANSWER"", ""recipe"": ""nde_arrowhead""}"
+8229,2,ate,IV,price,yes,precision_conflict,"{""label"": ""yes"", ""answer"": ""no"", ""status"": ""ANSWER"", ""recipe"": ""iv_wald""}"
+8314,3,ett,confounding,simpson_drug,yes,source_missing_term,"{""label"": ""yes"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+8315,3,ett,confounding,simpson_drug,no,source_missing_term,"{""label"": ""no"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+8323,3,ett,confounding,simpson_drug,no,source_missing_term,"{""label"": ""no"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+8329,3,ett,confounding,simpson_drug,no,source_missing_term,"{""label"": ""no"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+8357,3,ett,confounding,simpson_drug,no,source_missing_term,"{""label"": ""no"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+8365,3,ett,confounding,simpson_drug,yes,source_missing_term,"{""label"": ""yes"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+8407,3,ett,confounding,simpson_drug,yes,source_missing_term,"{""label"": ""yes"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+8434,3,ett,confounding,simpson_hospital,yes,source_missing_term,"{""label"": ""yes"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+8435,3,ett,confounding,simpson_hospital,no,source_missing_term,"{""label"": ""no"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+8482,3,ett,confounding,simpson_hospital,yes,source_missing_term,"{""label"": ""yes"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+8499,3,ett,confounding,simpson_hospital,yes,source_missing_term,"{""label"": ""yes"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+8504,3,ett,confounding,simpson_hospital,no,source_missing_term,"{""label"": ""no"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+8550,3,ett,confounding,simpson_kidneystone,no,source_missing_term,"{""label"": ""no"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+8556,3,ett,confounding,simpson_kidneystone,yes,source_missing_term,"{""label"": ""yes"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+8565,3,ett,confounding,simpson_kidneystone,no,source_missing_term,"{""label"": ""no"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+8617,3,ett,confounding,simpson_kidneystone,yes,source_missing_term,"{""label"": ""yes"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+8633,3,ett,confounding,simpson_kidneystone,no,source_missing_term,"{""label"": ""no"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+8642,3,ett,confounding,simpson_kidneystone,yes,source_missing_term,"{""label"": ""yes"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+8662,3,ett,confounding,simpson_vaccine,yes,source_missing_term,"{""label"": ""yes"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+8684,3,ett,confounding,simpson_vaccine,no,source_missing_term,"{""label"": ""no"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+8718,3,ett,confounding,simpson_vaccine,no,source_missing_term,"{""label"": ""no"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+8725,3,ett,confounding,simpson_vaccine,yes,source_missing_term,"{""label"": ""yes"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+8747,3,ett,confounding,simpson_vaccine,yes,source_missing_term,"{""label"": ""yes"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+9086,3,nde,arrowhead,smoking_gene_cancer,no,precision_conflict,"{""label"": ""no"", ""answer"": ""yes"", ""status"": ""ANSWER"", ""recipe"": ""nde_arrowhead""}"
+9554,3,det-counterfactual,diamondcut,firing_employee,no,source_alias_collision,
+9555,3,det-counterfactual,diamondcut,firing_employee,yes,source_alias_collision,
+9556,3,det-counterfactual,diamondcut,firing_employee,yes,source_alias_collision,
+9557,3,det-counterfactual,diamondcut,firing_employee,no,source_alias_collision,
+9558,3,det-counterfactual,diamondcut,firing_employee,yes,source_alias_collision,
+9560,3,det-counterfactual,diamondcut,firing_employee,yes,source_alias_collision,
+9562,3,det-counterfactual,diamondcut,firing_employee,no,source_alias_collision,
+9563,3,det-counterfactual,diamondcut,firing_employee,yes,source_alias_collision,
+9564,3,det-counterfactual,diamondcut,firing_employee,no,source_alias_collision,
+9565,3,det-counterfactual,diamondcut,firing_employee,yes,source_alias_collision,
+9567,3,det-counterfactual,diamondcut,firing_employee,yes,source_alias_collision,
+9570,3,det-counterfactual,diamondcut,firing_employee,yes,source_alias_collision,"[""CEOs who fire employees"", ""if the manager had signed the termination letter"", ""if the manager had signed the termination letter instead of not signing the termination letter""]"
+9570,3,det-counterfactual,diamondcut,firing_employee,yes,source_equation_mismatch,"the text says X = not V1, the reasoning field 'V1'"
+9571,3,det-counterfactual,diamondcut,firing_employee,no,source_alias_collision,"[""CEOs who fire employees"", ""if the manager had signed the termination letter"", ""if the manager had signed the termination letter instead of not signing the termination letter""]"
+9571,3,det-counterfactual,diamondcut,firing_employee,no,source_equation_mismatch,"the text says X = not V1, the reasoning field 'V1'"
+9572,3,det-counterfactual,diamondcut,firing_employee,yes,source_alias_collision,"[""CEOs who fire employees"", ""if the manager had signed the termination letter"", ""if the manager had signed the termination letter instead of not signing the termination letter""]"
+9572,3,det-counterfactual,diamondcut,firing_employee,yes,source_equation_mismatch,"the text says X = not V1, the reasoning field 'V1'"
+9573,3,det-counterfactual,diamondcut,firing_employee,no,source_alias_collision,"[""CEOs who fire employees"", ""if the manager had signed the termination letter"", ""if the manager had signed the termination letter instead of not signing the termination letter""]"
+9573,3,det-counterfactual,diamondcut,firing_employee,no,source_equation_mismatch,"the text says X = not V1, the reasoning field 'V1'"
+9574,3,det-counterfactual,diamondcut,firing_employee,no,source_alias_collision,"[""CEOs who fire employees"", ""if the manager had signed the termination letter"", ""if the manager had signed the termination letter instead of not signing the termination letter""]"
+9574,3,det-counterfactual,diamondcut,firing_employee,no,source_equation_mismatch,"the text says X = not V1, the reasoning field 'V1'"
+9575,3,det-counterfactual,diamondcut,firing_employee,yes,source_alias_collision,"[""CEOs who fire employees"", ""if the manager had signed the termination letter"", ""if the manager had signed the termination letter instead of not signing the termination letter""]"
+9575,3,det-counterfactual,diamondcut,firing_employee,yes,source_equation_mismatch,"the text says X = not V1, the reasoning field 'V1'"
+9577,3,det-counterfactual,diamondcut,firing_employee,no,source_alias_collision,"[""CEOs who fire employees"", ""if the manager had signed the termination letter"", ""if the manager had signed the termination letter instead of not signing the termination letter""]"
+9577,3,det-counterfactual,diamondcut,firing_employee,no,source_equation_mismatch,"the text says X = not V1, the reasoning field 'V1'"
+9579,3,det-counterfactual,diamondcut,firing_employee,yes,source_alias_collision,"[""CEOs who fire employees"", ""if the manager had signed the termination letter"", ""if the manager had signed the termination letter instead of not signing the termination letter""]"
+9579,3,det-counterfactual,diamondcut,firing_employee,yes,source_equation_mismatch,"the text says X = not V1, the reasoning field 'V1'"
+9580,3,det-counterfactual,diamondcut,firing_employee,yes,source_alias_collision,"[""CEOs who fire employees"", ""if the manager had signed the termination letter"", ""if the manager had signed the termination letter instead of not signing the termination letter""]"
+9580,3,det-counterfactual,diamondcut,firing_employee,yes,source_equation_mismatch,"the text says X = not V1, the reasoning field 'V1'"
+9582,3,det-counterfactual,diamondcut,firing_employee,no,source_alias_collision,"[""CEOs who fire employees"", ""if the manager had signed the termination letter"", ""if the manager had signed the termination letter instead of not signing the termination letter""]"
+9582,3,det-counterfactual,diamondcut,firing_employee,no,source_equation_mismatch,"the text says X = not V1, the reasoning field 'V1'"
+9584,3,det-counterfactual,diamondcut,firing_employee,no,source_alias_collision,"[""CEOs who fire employees"", ""if the manager had signed the termination letter"", ""if the manager had signed the termination letter instead of not signing the termination letter""]"
+9584,3,det-counterfactual,diamondcut,firing_employee,no,source_equation_mismatch,"the text says X = not V1, the reasoning field 'V1'"
+9585,3,det-counterfactual,diamondcut,firing_employee,yes,source_alias_collision,"[""CEOs who fire employees"", ""if the manager had signed the termination letter"", ""if the manager had signed the termination letter instead of not signing the termination letter""]"
+9585,3,det-counterfactual,diamondcut,firing_employee,yes,source_equation_mismatch,"the text says X = not V1, the reasoning field 'V1'"
+9682,3,det-counterfactual,diamond,vaccine_kills,no,source_alias_collision,
+9683,3,det-counterfactual,diamond,vaccine_kills,yes,source_alias_collision,
+9685,3,det-counterfactual,diamond,vaccine_kills,no,source_alias_collision,
+9686,3,det-counterfactual,diamond,vaccine_kills,no,source_alias_collision,
+9687,3,det-counterfactual,diamond,vaccine_kills,yes,source_alias_collision,
+9689,3,det-counterfactual,diamond,vaccine_kills,yes,source_alias_collision,
+9690,3,det-counterfactual,diamond,vaccine_kills,no,source_alias_collision,
+9691,3,det-counterfactual,diamond,vaccine_kills,yes,source_alias_collision,
+9692,3,det-counterfactual,diamond,vaccine_kills,yes,source_alias_collision,
+9693,3,det-counterfactual,diamond,vaccine_kills,no,source_alias_collision,
+9695,3,det-counterfactual,diamond,vaccine_kills,no,source_alias_collision,
+9696,3,det-counterfactual,diamond,vaccine_kills,yes,source_alias_collision,
+10667,1,marginal,diamondcut,firing_employee,yes,source_alias_collision,
+10670,3,ett,diamondcut,firing_employee,yes,source_alias_collision,
+10673,1,correlation,diamondcut,firing_employee,no,source_alias_collision,
+10674,2,backadj,diamondcut,firing_employee,no,source_alias_collision,
+10677,2,backadj,diamondcut,firing_employee,no,source_alias_collision,
+10679,2,ate,diamondcut,firing_employee,no,source_alias_collision,
+10681,1,correlation,diamondcut,firing_employee,no,source_alias_collision,
+10682,1,correlation,diamondcut,firing_employee,no,source_alias_collision,
+10683,2,ate,diamondcut,firing_employee,yes,source_alias_collision,
+10684,3,ett,diamondcut,firing_employee,no,source_alias_collision,
+10685,1,marginal,diamondcut,firing_employee,no,source_alias_collision,
+10686,1,marginal,diamondcut,firing_employee,yes,source_alias_collision,
+10687,1,correlation,diamondcut,firing_employee,no,source_alias_collision,
+10689,3,ett,diamondcut,firing_employee,no,source_alias_collision,
+10690,1,marginal,diamondcut,firing_employee,no,source_alias_collision,
+10691,1,correlation,diamondcut,firing_employee,yes,source_alias_collision,
+10693,3,ett,diamondcut,firing_employee,yes,source_alias_collision,
+10694,2,backadj,diamondcut,firing_employee,no,source_alias_collision,
+10696,1,correlation,diamondcut,firing_employee,yes,source_alias_collision,
+10699,2,ate,diamondcut,firing_employee,yes,source_alias_collision,
+10701,1,marginal,diamondcut,firing_employee,no,source_alias_collision,
+10703,2,ate,diamondcut,firing_employee,yes,source_alias_collision,
+10704,2,ate,diamondcut,firing_employee,no,source_alias_collision,
+10705,3,ett,diamondcut,firing_employee,no,source_alias_collision,
+10707,2,backadj,diamondcut,firing_employee,yes,source_alias_collision,
+10709,1,marginal,diamondcut,firing_employee,yes,source_alias_collision,
+10710,1,marginal,diamondcut,firing_employee,no,source_alias_collision,
+10711,1,correlation,diamondcut,firing_employee,no,source_alias_collision,
+10713,2,ate,diamondcut,firing_employee,no,source_alias_collision,
+10714,1,marginal,diamondcut,firing_employee,no,source_alias_collision,
+10715,1,marginal,diamondcut,firing_employee,yes,source_alias_collision,
+10717,2,backadj,diamondcut,firing_employee,yes,source_alias_collision,
+10718,3,ett,diamondcut,firing_employee,no,source_alias_collision,
+10719,3,ett,diamondcut,firing_employee,yes,source_alias_collision,
+10720,2,backadj,diamondcut,firing_employee,yes,source_alias_collision,
+10722,2,ate,diamondcut,firing_employee,no,source_alias_collision,
+10724,1,marginal,diamondcut,firing_employee,no,source_alias_collision,
+10727,3,ett,diamondcut,firing_employee,no,source_alias_collision,
+10728,1,correlation,diamondcut,firing_employee,yes,source_alias_collision,
+10729,1,correlation,diamondcut,firing_employee,no,source_alias_collision,
+10730,2,backadj,diamondcut,firing_employee,no,source_alias_collision,
+10731,2,ate,diamondcut,firing_employee,yes,source_alias_collision,
+10733,3,ett,diamondcut,firing_employee,yes,source_alias_collision,
+10734,1,marginal,diamondcut,firing_employee,yes,source_alias_collision,
+10735,1,correlation,diamondcut,firing_employee,yes,source_alias_collision,
+10737,2,backadj,diamondcut,firing_employee,yes,source_alias_collision,
+10740,1,correlation,diamondcut,firing_employee,no,source_alias_collision,
+10741,2,ate,diamondcut,firing_employee,yes,source_alias_collision,
+10742,3,ett,diamondcut,firing_employee,no,source_alias_collision,
+10744,1,correlation,diamondcut,firing_employee,yes,source_alias_collision,
+10745,2,backadj,diamondcut,firing_employee,yes,source_alias_collision,
+10746,2,ate,diamondcut,firing_employee,yes,source_alias_collision,
+10747,3,ett,diamondcut,firing_employee,no,source_alias_collision,
+10749,1,marginal,diamondcut,firing_employee,yes,source_alias_collision,
+10750,2,backadj,diamondcut,firing_employee,yes,source_alias_collision,
+10752,3,ett,diamondcut,firing_employee,no,source_alias_collision,
+10753,1,marginal,diamondcut,firing_employee,yes,source_alias_collision,
+10754,2,backadj,diamondcut,firing_employee,no,source_alias_collision,
+10756,3,ett,diamondcut,firing_employee,yes,source_alias_collision,
+10757,1,marginal,diamondcut,firing_employee,yes,source_alias_collision,
+10761,1,correlation,diamondcut,firing_employee,no,source_alias_collision,
+10764,3,ett,diamondcut,firing_employee,no,source_alias_collision,
+10767,1,correlation,diamondcut,firing_employee,no,source_alias_collision,
+10770,2,ate,diamondcut,firing_employee,no,source_alias_collision,
+10771,3,ett,diamondcut,firing_employee,no,source_alias_collision,
+10773,3,ett,diamondcut,firing_employee,no,source_alias_collision,
+10775,1,marginal,diamondcut,firing_employee,yes,source_alias_collision,
+10777,2,ate,diamondcut,firing_employee,yes,source_alias_collision,
+10780,2,ate,diamondcut,firing_employee,no,source_alias_collision,
+10781,2,backadj,diamondcut,firing_employee,no,source_alias_collision,
+10904,1,marginal,diamond,firing_squad,no,precision_conflict,"{""label"": ""no"", ""answer"": ""yes"", ""status"": ""ANSWER"", ""recipe"": ""marginal""}"
+11390,1,correlation,fork,getting_tanned,no,degenerate_premise,"{""label"": ""no"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""ZERO_DENOMINATOR"", ""recipe"": ""correlation""}"
+11513,2,ate,mediation,penguin,yes,precision_conflict,"{""label"": ""yes"", ""answer"": ""no"", ""status"": ""ANSWER"", ""recipe"": ""no_confounding""}"
+11627,3,nie,diamond,vaccine_kills,no,precision_conflict,"{""label"": ""no"", ""answer"": ""yes"", ""status"": ""ANSWER"", ""recipe"": ""no_confounding""}"
+11630,1,correlation,diamond,vaccine_kills,no,precision_conflict,"{""label"": ""no"", ""answer"": ""yes"", ""status"": ""ANSWER"", ""recipe"": ""correlation""}"
+11710,3,ett,diamond,vaccine_kills,no,precision_conflict,"{""label"": ""no"", ""answer"": ""yes"", ""status"": ""ANSWER"", ""recipe"": ""no_confounding""}"
+11867,1,correlation,mediation,blood_pressure,no,precision_conflict,"{""label"": ""no"", ""answer"": ""yes"", ""status"": ""ANSWER"", ""recipe"": ""correlation""}"
+13122,1,marginal,collision,man_in_relationship,yes,precision_conflict,"{""label"": ""yes"", ""answer"": ""no"", ""status"": ""ANSWER"", ""recipe"": ""marginal""}"
+13813,1,correlation,chain,orange_scurvy,yes,precision_conflict,"{""label"": ""yes"", ""answer"": ""no"", ""status"": ""ANSWER"", ""recipe"": ""correlation""}"
+13961,3,ett,confounding,simpson_drug,yes,source_missing_term,"{""label"": ""yes"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+13990,3,ett,confounding,simpson_drug,yes,source_missing_term,"{""label"": ""yes"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+14028,3,ett,confounding,simpson_drug,no,source_missing_term,"{""label"": ""no"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+14035,3,ett,confounding,simpson_drug,no,source_missing_term,"{""label"": ""no"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+14036,3,ett,confounding,simpson_drug,yes,source_missing_term,"{""label"": ""yes"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+14060,3,ett,confounding,simpson_hospital,no,source_missing_term,"{""label"": ""no"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+14063,3,ett,confounding,simpson_hospital,yes,source_missing_term,"{""label"": ""yes"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+14102,3,ett,confounding,simpson_hospital,no,source_missing_term,"{""label"": ""no"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+14110,3,ett,confounding,simpson_hospital,yes,source_missing_term,"{""label"": ""yes"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+14170,3,ett,confounding,simpson_kidneystone,no,source_missing_term,"{""label"": ""no"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+14201,1,marginal,confounding,simpson_kidneystone,no,precision_conflict,"{""label"": ""no"", ""answer"": ""yes"", ""status"": ""ANSWER"", ""recipe"": ""marginal""}"
+14202,1,marginal,confounding,simpson_kidneystone,yes,precision_conflict,"{""label"": ""yes"", ""answer"": ""no"", ""status"": ""ANSWER"", ""recipe"": ""marginal""}"
+14206,3,ett,confounding,simpson_kidneystone,no,source_missing_term,"{""label"": ""no"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+14228,3,ett,confounding,simpson_kidneystone,no,source_missing_term,"{""label"": ""no"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+14261,3,ett,confounding,simpson_kidneystone,no,source_missing_term,"{""label"": ""no"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+14333,3,ett,confounding,simpson_vaccine,no,source_missing_term,"{""label"": ""no"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+14336,3,ett,confounding,simpson_vaccine,no,source_missing_term,"{""label"": ""no"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+14343,3,ett,confounding,simpson_vaccine,yes,source_missing_term,"{""label"": ""yes"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+14350,3,ett,confounding,simpson_vaccine,yes,source_missing_term,"{""label"": ""yes"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+14365,3,ett,confounding,simpson_vaccine,no,source_missing_term,"{""label"": ""no"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+14610,1,marginal,frontdoor,smoking_frontdoor,yes,source_arithmetic,"{""label"": ""yes"", ""answer"": ""no"", ""status"": ""ANSWER"", ""recipe"": ""marginal""}"
+14635,1,marginal,frontdoor,smoking_frontdoor,yes,precision_conflict,"{""label"": ""yes"", ""answer"": ""no"", ""status"": ""ANSWER"", ""recipe"": ""marginal""}"
+14708,3,nde,arrowhead,smoking_gene_cancer,yes,source_arithmetic,"{""label"": ""yes"", ""answer"": ""no"", ""status"": ""ANSWER"", ""recipe"": ""nde_arrowhead""}"
+14744,3,nde,arrowhead,smoking_gene_cancer,yes,source_arithmetic,"{""label"": ""yes"", ""answer"": ""no"", ""status"": ""ANSWER"", ""recipe"": ""nde_arrowhead""}"
+14791,3,nde,arrowhead,smoking_gene_cancer,no,precision_conflict,"{""label"": ""no"", ""answer"": ""yes"", ""status"": ""ANSWER"", ""recipe"": ""nde_arrowhead""}"
+15473,3,ett,diamondcut,firing_employee,yes,source_alias_collision,
+15475,1,correlation,diamondcut,firing_employee,yes,source_alias_collision,
+15478,3,ett,diamondcut,firing_employee,yes,source_alias_collision,
+15479,1,marginal,diamondcut,firing_employee,yes,source_alias_collision,
+15481,1,correlation,diamondcut,firing_employee,no,source_alias_collision,
+15482,2,backadj,diamondcut,firing_employee,no,source_alias_collision,
+15483,2,backadj,diamondcut,firing_employee,yes,source_alias_collision,
+15485,3,ett,diamondcut,firing_employee,no,source_alias_collision,
+15486,1,correlation,diamondcut,firing_employee,yes,source_alias_collision,
+15487,3,ett,diamondcut,firing_employee,yes,source_alias_collision,
+15488,1,marginal,diamondcut,firing_employee,yes,source_alias_collision,
+15491,2,backadj,diamondcut,firing_employee,yes,source_alias_collision,
+15493,2,backadj,diamondcut,firing_employee,yes,source_alias_collision,
+15494,3,ett,diamondcut,firing_employee,no,source_alias_collision,
+15498,2,ate,diamondcut,firing_employee,yes,source_alias_collision,
+15502,2,ate,diamondcut,firing_employee,no,source_alias_collision,
+15505,2,ate,diamondcut,firing_employee,yes,source_alias_collision,
+15507,1,marginal,diamondcut,firing_employee,yes,source_alias_collision,
+15508,2,ate,diamondcut,firing_employee,no,source_alias_collision,
+15509,2,ate,diamondcut,firing_employee,yes,source_alias_collision,
+15511,1,marginal,diamondcut,firing_employee,yes,source_alias_collision,
+15512,1,marginal,diamondcut,firing_employee,no,source_alias_collision,
+15513,2,ate,diamondcut,firing_employee,no,source_alias_collision,
+15514,3,ett,diamondcut,firing_employee,yes,source_alias_collision,
+15516,2,backadj,diamondcut,firing_employee,yes,source_alias_collision,
+15517,2,ate,diamondcut,firing_employee,yes,source_alias_collision,
+15518,2,backadj,diamondcut,firing_employee,no,source_alias_collision,
+15519,2,backadj,diamondcut,firing_employee,yes,source_alias_collision,
+15520,2,ate,diamondcut,firing_employee,no,source_alias_collision,
+15521,2,ate,diamondcut,firing_employee,yes,source_alias_collision,
+15523,1,marginal,diamondcut,firing_employee,no,source_alias_collision,
+15524,1,correlation,diamondcut,firing_employee,yes,source_alias_collision,
+15529,2,backadj,diamondcut,firing_employee,yes,source_alias_collision,
+15530,3,ett,diamondcut,firing_employee,yes,source_alias_collision,
+15533,1,marginal,diamondcut,firing_employee,no,source_alias_collision,
+15535,2,ate,diamondcut,firing_employee,no,source_alias_collision,
+15538,2,backadj,diamondcut,firing_employee,no,source_alias_collision,
+15539,2,backadj,diamondcut,firing_employee,yes,source_alias_collision,
+15540,2,ate,diamondcut,firing_employee,no,source_alias_collision,
+15542,2,backadj,diamondcut,firing_employee,no,source_alias_collision,
+15543,2,ate,diamondcut,firing_employee,yes,source_alias_collision,
+15545,2,ate,diamondcut,firing_employee,yes,source_alias_collision,
+15549,1,marginal,diamondcut,firing_employee,no,source_alias_collision,
+15551,1,correlation,diamondcut,firing_employee,yes,source_alias_collision,
+15552,2,backadj,diamondcut,firing_employee,no,source_alias_collision,
+15553,3,ett,diamondcut,firing_employee,yes,source_alias_collision,
+15554,1,marginal,diamondcut,firing_employee,no,source_alias_collision,
+15557,2,backadj,diamondcut,firing_employee,no,source_alias_collision,
+15559,1,correlation,diamondcut,firing_employee,no,source_alias_collision,
+15561,2,backadj,diamondcut,firing_employee,yes,source_alias_collision,
+15562,2,ate,diamondcut,firing_employee,no,source_alias_collision,
+15563,1,correlation,diamondcut,firing_employee,no,source_alias_collision,
+15565,3,ett,diamondcut,firing_employee,yes,source_alias_collision,
+15568,2,backadj,diamondcut,firing_employee,yes,source_alias_collision,
+15574,2,backadj,diamondcut,firing_employee,yes,source_alias_collision,
+15575,3,ett,diamondcut,firing_employee,no,source_alias_collision,
+15576,1,correlation,diamondcut,firing_employee,yes,source_alias_collision,
+15577,2,backadj,diamondcut,firing_employee,yes,source_alias_collision,
+15578,2,ate,diamondcut,firing_employee,no,source_alias_collision,
+15579,1,marginal,diamondcut,firing_employee,yes,source_alias_collision,
+15580,1,marginal,diamondcut,firing_employee,no,source_alias_collision,
+15581,1,correlation,diamondcut,firing_employee,no,source_alias_collision,
+15582,1,correlation,diamondcut,firing_employee,yes,source_alias_collision,
+15583,2,backadj,diamondcut,firing_employee,no,source_alias_collision,
+15584,1,marginal,diamondcut,firing_employee,yes,source_alias_collision,
+15585,1,marginal,diamondcut,firing_employee,no,source_alias_collision,
+15752,3,ett,diamond,floor_wet,yes,precision_conflict,"{""label"": ""yes"", ""answer"": ""no"", ""status"": ""ANSWER"", ""recipe"": ""no_confounding""}"
+15762,1,correlation,diamond,floor_wet,no,precision_conflict,"{""label"": ""no"", ""answer"": ""yes"", ""status"": ""ANSWER"", ""recipe"": ""correlation""}"
+15810,1,correlation,diamond,floor_wet,yes,precision_conflict,"{""label"": ""yes"", ""answer"": ""no"", ""status"": ""ANSWER"", ""recipe"": ""correlation""}"
+16143,1,correlation,fork,getting_tanned,yes,degenerate_premise,"{""label"": ""yes"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""ZERO_DENOMINATOR"", ""recipe"": ""correlation""}"
+16364,1,correlation,diamond,vaccine_kills,no,source_alias_collision,
+16366,2,backadj,diamond,vaccine_kills,yes,source_alias_collision,
+16367,3,ett,diamond,vaccine_kills,yes,source_alias_collision,
+16370,3,ett,diamond,vaccine_kills,no,source_alias_collision,
+16374,1,marginal,diamond,vaccine_kills,no,source_alias_collision,
+16375,1,correlation,diamond,vaccine_kills,yes,source_alias_collision,
+16376,3,ett,diamond,vaccine_kills,yes,source_alias_collision,
+16377,1,marginal,diamond,vaccine_kills,no,source_alias_collision,
+16379,2,backadj,diamond,vaccine_kills,no,source_alias_collision,
+16381,2,ate,diamond,vaccine_kills,no,source_alias_collision,
+16382,1,correlation,diamond,vaccine_kills,yes,source_alias_collision,
+16385,1,correlation,diamond,vaccine_kills,yes,precision_conflict,"{""label"": ""yes"", ""answer"": ""no"", ""status"": ""ANSWER"", ""recipe"": ""correlation""}"
+16385,1,correlation,diamond,vaccine_kills,yes,source_alias_collision,
+16386,2,backadj,diamond,vaccine_kills,no,source_alias_collision,
+16389,1,correlation,diamond,vaccine_kills,yes,source_alias_collision,
+16393,3,ett,diamond,vaccine_kills,no,source_alias_collision,
+16394,1,correlation,diamond,vaccine_kills,no,precision_conflict,"{""label"": ""no"", ""answer"": ""yes"", ""status"": ""ANSWER"", ""recipe"": ""correlation""}"
+16394,1,correlation,diamond,vaccine_kills,no,source_alias_collision,
+16395,3,ett,diamond,vaccine_kills,yes,source_alias_collision,
+16402,2,ate,diamond,vaccine_kills,no,source_alias_collision,
+16406,3,nie,diamond,vaccine_kills,no,source_alias_collision,
+16407,2,backadj,diamond,vaccine_kills,no,source_alias_collision,
+16408,2,ate,diamond,vaccine_kills,no,source_alias_collision,
+16410,1,correlation,diamond,vaccine_kills,no,source_alias_collision,
+16412,3,ett,diamond,vaccine_kills,no,source_alias_collision,
+16416,2,ate,diamond,vaccine_kills,no,source_alias_collision,
+16417,3,ett,diamond,vaccine_kills,no,source_alias_collision,
+16421,3,ett,diamond,vaccine_kills,no,source_alias_collision,
+16424,1,correlation,diamond,vaccine_kills,no,precision_conflict,"{""label"": ""no"", ""answer"": ""yes"", ""status"": ""ANSWER"", ""recipe"": ""correlation""}"
+16424,1,correlation,diamond,vaccine_kills,no,source_alias_collision,
+16426,2,ate,diamond,vaccine_kills,yes,source_alias_collision,
+16428,3,nie,diamond,vaccine_kills,no,source_alias_collision,
+16429,1,marginal,diamond,vaccine_kills,yes,source_alias_collision,
+16435,1,marginal,diamond,vaccine_kills,no,source_alias_collision,
+16436,1,correlation,diamond,vaccine_kills,no,source_alias_collision,
+16443,3,ett,diamond,vaccine_kills,yes,source_alias_collision,
+16444,3,ett,diamond,vaccine_kills,no,source_alias_collision,
+16446,1,marginal,diamond,vaccine_kills,yes,source_alias_collision,
+16448,3,nie,diamond,vaccine_kills,no,source_alias_collision,
+16451,1,correlation,diamond,vaccine_kills,yes,source_alias_collision,
+16454,3,nie,diamond,vaccine_kills,yes,source_alias_collision,
+16456,1,marginal,diamond,vaccine_kills,no,source_alias_collision,
+16459,2,ate,diamond,vaccine_kills,no,source_alias_collision,
+16462,2,backadj,diamond,vaccine_kills,yes,source_alias_collision,
+16463,2,ate,diamond,vaccine_kills,no,source_alias_collision,
+16464,3,ett,diamond,vaccine_kills,no,source_alias_collision,
+16468,3,ett,diamond,vaccine_kills,yes,source_alias_collision,
+16474,2,ate,diamond,vaccine_kills,no,source_alias_collision,
+16476,3,nie,diamond,vaccine_kills,no,source_alias_collision,
+16480,1,marginal,diamond,vaccine_kills,no,source_alias_collision,
+16481,1,correlation,diamond,vaccine_kills,no,source_alias_collision,
+16482,2,backadj,diamond,vaccine_kills,no,source_alias_collision,
+16484,3,ett,diamond,vaccine_kills,no,source_alias_collision,
+16485,3,nie,diamond,vaccine_kills,yes,source_alias_collision,
+16488,1,correlation,diamond,vaccine_kills,yes,source_alias_collision,
+16493,2,backadj,diamond,vaccine_kills,no,source_alias_collision,
+17186,1,marginal,mediation,encouagement_program,no,precision_conflict,"{""label"": ""no"", ""answer"": ""yes"", ""status"": ""ANSWER"", ""recipe"": ""marginal""}"
+17337,1,marginal,mediation,gender_admission,yes,precision_conflict,"{""label"": ""yes"", ""answer"": ""no"", ""status"": ""ANSWER"", ""recipe"": ""marginal""}"
+17782,1,correlation,arrowhead,gender_pay,yes,precision_conflict,"{""label"": ""yes"", ""answer"": ""no"", ""status"": ""ANSWER"", ""recipe"": ""correlation""}"
+18728,3,ett,confounding,simpson_drug,yes,source_missing_term,"{""label"": ""yes"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+18776,3,ett,confounding,simpson_drug,no,source_missing_term,"{""label"": ""no"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+18780,3,ett,confounding,simpson_drug,no,source_missing_term,"{""label"": ""no"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+18797,3,ett,confounding,simpson_drug,no,source_missing_term,"{""label"": ""no"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+18799,3,ett,confounding,simpson_drug,yes,source_missing_term,"{""label"": ""yes"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+18807,3,ett,confounding,simpson_drug,yes,source_missing_term,"{""label"": ""yes"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+18819,3,ett,confounding,simpson_hospital,no,source_missing_term,"{""label"": ""no"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+18842,3,ett,confounding,simpson_hospital,yes,source_missing_term,"{""label"": ""yes"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+18846,3,ett,confounding,simpson_hospital,yes,source_missing_term,"{""label"": ""yes"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+18847,3,ett,confounding,simpson_hospital,no,source_missing_term,"{""label"": ""no"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+18886,3,ett,confounding,simpson_hospital,yes,source_missing_term,"{""label"": ""yes"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+18887,3,ett,confounding,simpson_hospital,no,source_missing_term,"{""label"": ""no"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+18891,3,ett,confounding,simpson_hospital,yes,source_missing_term,"{""label"": ""yes"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+18903,3,ett,confounding,simpson_hospital,yes,source_missing_term,"{""label"": ""yes"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+18918,3,ett,confounding,simpson_hospital,no,source_missing_term,"{""label"": ""no"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+18948,3,ett,confounding,simpson_kidneystone,yes,source_missing_term,"{""label"": ""yes"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+18975,3,ett,confounding,simpson_kidneystone,yes,source_missing_term,"{""label"": ""yes"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+18976,3,ett,confounding,simpson_kidneystone,no,source_missing_term,"{""label"": ""no"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+18992,3,ett,confounding,simpson_kidneystone,no,source_missing_term,"{""label"": ""no"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+19014,3,ett,confounding,simpson_kidneystone,yes,source_missing_term,"{""label"": ""yes"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+19031,3,ett,confounding,simpson_kidneystone,yes,source_missing_term,"{""label"": ""yes"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+19033,3,ett,confounding,simpson_kidneystone,no,source_missing_term,"{""label"": ""no"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+19035,3,ett,confounding,simpson_kidneystone,no,source_missing_term,"{""label"": ""no"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+19054,3,ett,confounding,simpson_vaccine,yes,source_missing_term,"{""label"": ""yes"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+19110,3,ett,confounding,simpson_vaccine,no,source_missing_term,"{""label"": ""no"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+19117,3,ett,confounding,simpson_vaccine,yes,source_missing_term,"{""label"": ""yes"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+19118,3,ett,confounding,simpson_vaccine,no,source_missing_term,"{""label"": ""no"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+19129,3,ett,confounding,simpson_vaccine,yes,source_missing_term,"{""label"": ""yes"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+19139,3,ett,confounding,simpson_vaccine,yes,source_missing_term,"{""label"": ""yes"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+19428,1,marginal,frontdoor,smoking_frontdoor,yes,precision_conflict,"{""label"": ""yes"", ""answer"": ""no"", ""status"": ""ANSWER"", ""recipe"": ""marginal""}"
+19445,3,nie,arrowhead,smoking_gene_cancer,no,precision_conflict,"{""label"": ""no"", ""answer"": ""yes"", ""status"": ""ANSWER"", ""recipe"": ""nie_arrowhead""}"
+19446,3,nde,arrowhead,smoking_gene_cancer,no,source_arithmetic,"{""label"": ""no"", ""answer"": ""yes"", ""status"": ""ANSWER"", ""recipe"": ""nde_arrowhead""}"
+19946,3,det-counterfactual,diamondcut,firing_employee,no,source_alias_collision,
+19947,3,det-counterfactual,diamondcut,firing_employee,yes,source_alias_collision,
+19948,3,det-counterfactual,diamondcut,firing_employee,yes,source_alias_collision,
+19949,3,det-counterfactual,diamondcut,firing_employee,no,source_alias_collision,
+19950,3,det-counterfactual,diamondcut,firing_employee,yes,source_alias_collision,
+19951,3,det-counterfactual,diamondcut,firing_employee,no,source_alias_collision,
+19953,3,det-counterfactual,diamondcut,firing_employee,no,source_alias_collision,
+19954,3,det-counterfactual,diamondcut,firing_employee,no,source_alias_collision,
+19955,3,det-counterfactual,diamondcut,firing_employee,yes,source_alias_collision,
+19957,3,det-counterfactual,diamondcut,firing_employee,yes,source_alias_collision,
+19958,3,det-counterfactual,diamondcut,firing_employee,no,source_alias_collision,
+19959,3,det-counterfactual,diamondcut,firing_employee,yes,source_alias_collision,
+19960,3,det-counterfactual,diamondcut,firing_employee,yes,source_alias_collision,
+19961,3,det-counterfactual,diamondcut,firing_employee,no,source_alias_collision,
+19963,3,det-counterfactual,diamondcut,firing_employee,no,source_alias_collision,"[""CEOs who fire employees""]"
+19963,3,det-counterfactual,diamondcut,firing_employee,no,source_equation_mismatch,"the text says X = not V1, the reasoning field 'V1'"
+19964,3,det-counterfactual,diamondcut,firing_employee,yes,source_alias_collision,"[""CEOs who fire employees""]"
+19964,3,det-counterfactual,diamondcut,firing_employee,yes,source_equation_mismatch,"the text says X = not V1, the reasoning field 'V1'"
+19966,3,det-counterfactual,diamondcut,firing_employee,no,source_alias_collision,"[""CEOs who fire employees""]"
+19966,3,det-counterfactual,diamondcut,firing_employee,no,source_equation_mismatch,"the text says X = not V1, the reasoning field 'V1'"
+19967,3,det-counterfactual,diamondcut,firing_employee,yes,source_alias_collision,"[""CEOs who fire employees""]"
+19967,3,det-counterfactual,diamondcut,firing_employee,yes,source_equation_mismatch,"the text says X = not V1, the reasoning field 'V1'"
+19968,3,det-counterfactual,diamondcut,firing_employee,yes,source_alias_collision,"[""CEOs who fire employees""]"
+19968,3,det-counterfactual,diamondcut,firing_employee,yes,source_equation_mismatch,"the text says X = not V1, the reasoning field 'V1'"
+19969,3,det-counterfactual,diamondcut,firing_employee,no,source_alias_collision,"[""CEOs who fire employees""]"
+19969,3,det-counterfactual,diamondcut,firing_employee,no,source_equation_mismatch,"the text says X = not V1, the reasoning field 'V1'"
+19970,3,det-counterfactual,diamondcut,firing_employee,no,source_alias_collision,"[""CEOs who fire employees""]"
+19970,3,det-counterfactual,diamondcut,firing_employee,no,source_equation_mismatch,"the text says X = not V1, the reasoning field 'V1'"
+19972,3,det-counterfactual,diamondcut,firing_employee,yes,source_alias_collision,"[""CEOs who fire employees""]"
+19972,3,det-counterfactual,diamondcut,firing_employee,yes,source_equation_mismatch,"the text says X = not V1, the reasoning field 'V1'"
+19973,3,det-counterfactual,diamondcut,firing_employee,no,source_alias_collision,"[""CEOs who fire employees""]"
+19973,3,det-counterfactual,diamondcut,firing_employee,no,source_equation_mismatch,"the text says X = not V1, the reasoning field 'V1'"
+19974,3,det-counterfactual,diamondcut,firing_employee,no,source_alias_collision,"[""CEOs who fire employees""]"
+19974,3,det-counterfactual,diamondcut,firing_employee,no,source_equation_mismatch,"the text says X = not V1, the reasoning field 'V1'"
+19975,3,det-counterfactual,diamondcut,firing_employee,yes,source_alias_collision,"[""CEOs who fire employees""]"
+19975,3,det-counterfactual,diamondcut,firing_employee,yes,source_equation_mismatch,"the text says X = not V1, the reasoning field 'V1'"
+19976,3,det-counterfactual,diamondcut,firing_employee,no,source_alias_collision,"[""CEOs who fire employees""]"
+19976,3,det-counterfactual,diamondcut,firing_employee,no,source_equation_mismatch,"the text says X = not V1, the reasoning field 'V1'"
+19977,3,det-counterfactual,diamondcut,firing_employee,yes,source_alias_collision,"[""CEOs who fire employees""]"
+19977,3,det-counterfactual,diamondcut,firing_employee,yes,source_equation_mismatch,"the text says X = not V1, the reasoning field 'V1'"
+20875,3,ett,confounding,nonsense0,yes,source_missing_term,"{""label"": ""yes"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+20876,1,marginal,confounding,nonsense0,yes,source_arithmetic,"{""label"": ""yes"", ""answer"": ""no"", ""status"": ""ANSWER"", ""recipe"": ""marginal""}"
+20883,1,marginal,confounding,nonsense0,no,precision_conflict,"{""label"": ""no"", ""answer"": ""yes"", ""status"": ""ANSWER"", ""recipe"": ""marginal""}"
+20886,3,ett,confounding,nonsense0,yes,source_missing_term,"{""label"": ""yes"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+20893,3,ett,confounding,nonsense0,yes,source_missing_term,"{""label"": ""yes"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+21002,1,marginal,frontdoor,nonsense0,yes,source_arithmetic,"{""label"": ""yes"", ""answer"": ""no"", ""status"": ""ANSWER"", ""recipe"": ""marginal""}"
+21104,3,nie,arrowhead,nonsense0,no,precision_conflict,"{""label"": ""no"", ""answer"": ""yes"", ""status"": ""ANSWER"", ""recipe"": ""nie_arrowhead""}"
+21352,3,ett,confounding,nonsense1,yes,source_missing_term,"{""label"": ""yes"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+21505,1,correlation,arrowhead,nonsense1,yes,precision_conflict,"{""label"": ""yes"", ""answer"": ""no"", ""status"": ""ANSWER"", ""recipe"": ""correlation""}"
+21779,3,ett,confounding,nonsense2,yes,source_missing_term,"{""label"": ""yes"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+21795,1,correlation,confounding,nonsense2,no,precision_conflict,"{""label"": ""no"", ""answer"": ""yes"", ""status"": ""ANSWER"", ""recipe"": ""correlation""}"
+21798,3,ett,confounding,nonsense2,no,source_missing_term,"{""label"": ""no"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+21811,3,ett,confounding,nonsense2,yes,source_missing_term,"{""label"": ""yes"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+21812,3,ett,confounding,nonsense2,no,source_missing_term,"{""label"": ""no"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+21864,2,ate,frontdoor,nonsense2,no,precision_conflict,"{""label"": ""no"", ""answer"": ""yes"", ""status"": ""ANSWER"", ""recipe"": ""frontdoor""}"
+21877,3,nie,frontdoor,nonsense2,no,precision_conflict,"{""label"": ""no"", ""answer"": ""yes"", ""status"": ""ANSWER"", ""recipe"": ""frontdoor""}"
+21879,1,correlation,frontdoor,nonsense2,no,precision_conflict,"{""label"": ""no"", ""answer"": ""yes"", ""status"": ""ANSWER"", ""recipe"": ""correlation""}"
+22200,3,ett,confounding,nonsense3,no,source_missing_term,"{""label"": ""no"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+22209,3,ett,confounding,nonsense3,no,source_missing_term,"{""label"": ""no"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+22284,3,nie,frontdoor,nonsense3,no,source_arithmetic,"{""label"": ""no"", ""answer"": ""yes"", ""status"": ""ANSWER"", ""recipe"": ""frontdoor""}"
+22290,1,marginal,frontdoor,nonsense3,no,source_arithmetic,"{""label"": ""no"", ""answer"": ""yes"", ""status"": ""ANSWER"", ""recipe"": ""marginal""}"
+22318,1,correlation,frontdoor,nonsense3,no,precision_conflict,"{""label"": ""no"", ""answer"": ""yes"", ""status"": ""ANSWER"", ""recipe"": ""correlation""}"
+22650,3,ett,confounding,nonsense4,yes,source_missing_term,"{""label"": ""yes"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+22654,3,ett,confounding,nonsense4,yes,source_missing_term,"{""label"": ""yes"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+22658,3,ett,confounding,nonsense4,no,source_missing_term,"{""label"": ""no"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+22659,3,ett,confounding,nonsense4,yes,source_missing_term,"{""label"": ""yes"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+22675,1,correlation,mediation,nonsense4,no,precision_conflict,"{""label"": ""no"", ""answer"": ""yes"", ""status"": ""ANSWER"", ""recipe"": ""correlation""}"
+22740,1,correlation,frontdoor,nonsense4,no,precision_conflict,"{""label"": ""no"", ""answer"": ""yes"", ""status"": ""ANSWER"", ""recipe"": ""correlation""}"
+22778,1,correlation,frontdoor,nonsense4,yes,precision_conflict,"{""label"": ""yes"", ""answer"": ""no"", ""status"": ""ANSWER"", ""recipe"": ""correlation""}"
+23001,1,correlation,fork,nonsense4,yes,precision_conflict,"{""label"": ""yes"", ""answer"": ""no"", ""status"": ""ANSWER"", ""recipe"": ""correlation""}"
+23024,3,nie,chain,nonsense5,no,precision_conflict,"{""label"": ""no"", ""answer"": ""yes"", ""status"": ""ANSWER"", ""recipe"": ""no_confounding""}"
+23034,1,correlation,chain,nonsense5,yes,precision_conflict,"{""label"": ""yes"", ""answer"": ""no"", ""status"": ""ANSWER"", ""recipe"": ""correlation""}"
+23062,1,correlation,chain,nonsense5,no,precision_conflict,"{""label"": ""no"", ""answer"": ""yes"", ""status"": ""ANSWER"", ""recipe"": ""correlation""}"
+23099,3,ett,confounding,nonsense5,no,source_missing_term,"{""label"": ""no"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+23116,3,ett,confounding,nonsense5,no,source_missing_term,"{""label"": ""no"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+23125,3,ett,confounding,nonsense5,yes,source_missing_term,"{""label"": ""yes"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+23135,3,ett,confounding,nonsense5,yes,source_missing_term,"{""label"": ""yes"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+23218,3,nie,frontdoor,nonsense5,no,precision_conflict,"{""label"": ""no"", ""answer"": ""yes"", ""status"": ""ANSWER"", ""recipe"": ""frontdoor""}"
+23283,3,nie,arrowhead,nonsense5,yes,source_arithmetic,"{""label"": ""yes"", ""answer"": ""no"", ""status"": ""ANSWER"", ""recipe"": ""nie_arrowhead""}"
+23329,1,marginal,arrowhead,nonsense5,no,source_arithmetic,"{""label"": ""no"", ""answer"": ""yes"", ""status"": ""ANSWER"", ""recipe"": ""marginal""}"
+23564,3,ett,confounding,nonsense6,no,source_missing_term,"{""label"": ""no"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+23565,3,ett,confounding,nonsense6,yes,source_missing_term,"{""label"": ""yes"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+23572,3,ett,confounding,nonsense6,yes,source_missing_term,"{""label"": ""yes"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+23574,3,ett,confounding,nonsense6,yes,source_missing_term,"{""label"": ""yes"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+23576,3,nie,mediation,nonsense6,no,source_arithmetic,"{""label"": ""no"", ""answer"": ""yes"", ""status"": ""ANSWER"", ""recipe"": ""nie_mediation""}"
+23669,3,ett,frontdoor,nonsense6,no,source_arithmetic,"{""label"": ""no"", ""answer"": ""yes"", ""status"": ""ANSWER"", ""recipe"": ""ett_frontdoor""}"
+23962,3,ett,confounding,nonsense7,no,source_missing_term,"{""label"": ""no"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+23973,3,ett,confounding,nonsense7,yes,source_missing_term,"{""label"": ""yes"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+23996,1,marginal,mediation,nonsense7,yes,source_arithmetic,"{""label"": ""yes"", ""answer"": ""no"", ""status"": ""ANSWER"", ""recipe"": ""marginal""}"
+24386,1,exp_away,collision,nonsense8,yes,precision_conflict,"{""label"": ""yes"", ""answer"": ""no"", ""status"": ""ANSWER"", ""recipe"": ""exp_away""}"
+24387,3,ett,confounding,nonsense8,no,source_missing_term,"{""label"": ""no"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+24403,1,correlation,confounding,nonsense8,no,precision_conflict,"{""label"": ""no"", ""answer"": ""yes"", ""status"": ""ANSWER"", ""recipe"": ""correlation""}"
+24473,1,marginal,mediation,nonsense8,no,precision_conflict,"{""label"": ""no"", ""answer"": ""yes"", ""status"": ""ANSWER"", ""recipe"": ""marginal""}"
+24699,1,correlation,diamondcut,nonsense8,yes,precision_conflict,"{""label"": ""yes"", ""answer"": ""no"", ""status"": ""ANSWER"", ""recipe"": ""correlation""}"
+24741,1,correlation,fork,nonsense8,no,degenerate_premise,"{""label"": ""no"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""ZERO_DENOMINATOR"", ""recipe"": ""correlation""}"
+24783,1,correlation,chain,nonsense9,no,precision_conflict,"{""label"": ""no"", ""answer"": ""yes"", ""status"": ""ANSWER"", ""recipe"": ""correlation""}"
+24852,1,marginal,confounding,nonsense9,yes,precision_conflict,"{""label"": ""yes"", ""answer"": ""no"", ""status"": ""ANSWER"", ""recipe"": ""marginal""}"
+24960,2,ate,IV,nonsense9,yes,precision_conflict,"{""label"": ""yes"", ""answer"": ""no"", ""status"": ""ANSWER"", ""recipe"": ""iv_wald""}"
+25078,1,correlation,diamond,nonsense9,no,degenerate_premise,"{""label"": ""no"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""ZERO_DENOMINATOR"", ""recipe"": ""correlation""}"
+25261,3,ett,confounding,nonsense0,no,source_missing_term,"{""label"": ""no"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+25288,3,ett,confounding,nonsense0,yes,source_missing_term,"{""label"": ""yes"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+25363,3,ett,frontdoor,nonsense0,no,source_arithmetic,"{""label"": ""no"", ""answer"": ""yes"", ""status"": ""ANSWER"", ""recipe"": ""ett_frontdoor""}"
+25570,1,correlation,fork,nonsense0,yes,precision_conflict,"{""label"": ""yes"", ""answer"": ""no"", ""status"": ""ANSWER"", ""recipe"": ""correlation""}"
+25706,3,ett,confounding,nonsense1,yes,source_missing_term,"{""label"": ""yes"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+25718,3,ett,confounding,nonsense1,no,source_missing_term,"{""label"": ""no"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+25827,2,ate,IV,nonsense1,no,degenerate_premise,"{""label"": ""no"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""ZERO_DENOMINATOR"", ""recipe"": ""iv_wald""}"
+25888,3,nde,arrowhead,nonsense1,no,source_arithmetic,"{""label"": ""no"", ""answer"": ""yes"", ""status"": ""ANSWER"", ""recipe"": ""nde_arrowhead""}"
+25982,1,marginal,diamondcut,nonsense1,no,source_arithmetic,"{""label"": ""no"", ""answer"": ""yes"", ""status"": ""ANSWER"", ""recipe"": ""marginal""}"
+26123,3,ett,confounding,nonsense2,yes,source_missing_term,"{""label"": ""yes"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+26317,1,correlation,arrowhead,nonsense2,yes,precision_conflict,"{""label"": ""yes"", ""answer"": ""no"", ""status"": ""ANSWER"", ""recipe"": ""correlation""}"
+26563,3,ett,confounding,nonsense3,no,source_missing_term,"{""label"": ""no"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+26584,3,ett,confounding,nonsense3,yes,source_missing_term,"{""label"": ""yes"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+26591,3,ett,confounding,nonsense3,yes,source_missing_term,"{""label"": ""yes"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+26596,3,ett,confounding,nonsense3,yes,source_missing_term,"{""label"": ""yes"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+26597,3,ett,confounding,nonsense3,no,source_missing_term,"{""label"": ""no"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+26602,3,ett,confounding,nonsense3,yes,source_missing_term,"{""label"": ""yes"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+26735,1,marginal,IV,nonsense3,no,precision_conflict,"{""label"": ""no"", ""answer"": ""yes"", ""status"": ""ANSWER"", ""recipe"": ""marginal""}"
+26796,3,nde,arrowhead,nonsense3,no,precision_conflict,"{""label"": ""no"", ""answer"": ""yes"", ""status"": ""ANSWER"", ""recipe"": ""nde_arrowhead""}"
+26809,2,ate,diamond,nonsense3,yes,precision_conflict,"{""label"": ""yes"", ""answer"": ""no"", ""status"": ""ANSWER"", ""recipe"": ""no_confounding""}"
+27019,3,ett,confounding,nonsense4,yes,source_missing_term,"{""label"": ""yes"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+27028,3,ett,confounding,nonsense4,yes,source_missing_term,"{""label"": ""yes"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+27035,3,ett,confounding,nonsense4,yes,source_missing_term,"{""label"": ""yes"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+27039,3,ett,confounding,nonsense4,yes,source_missing_term,"{""label"": ""yes"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+27140,2,ate,IV,nonsense4,yes,precision_conflict,"{""label"": ""yes"", ""answer"": ""no"", ""status"": ""ANSWER"", ""recipe"": ""iv_wald""}"
+27147,2,ate,IV,nonsense4,yes,precision_conflict,"{""label"": ""yes"", ""answer"": ""no"", ""status"": ""ANSWER"", ""recipe"": ""iv_wald""}"
+27259,1,correlation,diamond,nonsense4,no,precision_conflict,"{""label"": ""no"", ""answer"": ""yes"", ""status"": ""ANSWER"", ""recipe"": ""correlation""}"
+27359,1,correlation,chain,nonsense5,yes,precision_conflict,"{""label"": ""yes"", ""answer"": ""no"", ""status"": ""ANSWER"", ""recipe"": ""correlation""}"
+27419,3,ett,confounding,nonsense5,no,source_missing_term,"{""label"": ""no"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+27439,3,ett,confounding,nonsense5,no,source_missing_term,"{""label"": ""no"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+27453,3,ett,confounding,nonsense5,yes,source_missing_term,"{""label"": ""yes"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+27496,3,nie,mediation,nonsense5,no,precision_conflict,"{""label"": ""no"", ""answer"": ""yes"", ""status"": ""ANSWER"", ""recipe"": ""nie_mediation""}"
+27535,3,ett,frontdoor,nonsense5,no,source_arithmetic,"{""label"": ""no"", ""answer"": ""yes"", ""status"": ""ANSWER"", ""recipe"": ""ett_frontdoor""}"
+27536,3,nie,frontdoor,nonsense5,no,source_arithmetic,"{""label"": ""no"", ""answer"": ""yes"", ""status"": ""ANSWER"", ""recipe"": ""frontdoor""}"
+27554,3,nie,frontdoor,nonsense5,no,source_arithmetic,"{""label"": ""no"", ""answer"": ""yes"", ""status"": ""ANSWER"", ""recipe"": ""frontdoor""}"
+27635,1,correlation,arrowhead,nonsense5,no,degenerate_premise,"{""label"": ""no"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""ZERO_DENOMINATOR"", ""recipe"": ""correlation""}"
+27645,1,correlation,arrowhead,nonsense5,no,precision_conflict,"{""label"": ""no"", ""answer"": ""yes"", ""status"": ""ANSWER"", ""recipe"": ""correlation""}"
+27653,1,correlation,diamond,nonsense5,yes,precision_conflict,"{""label"": ""yes"", ""answer"": ""no"", ""status"": ""ANSWER"", ""recipe"": ""correlation""}"
+27857,3,ett,confounding,nonsense6,no,source_missing_term,"{""label"": ""no"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+28331,3,ett,confounding,nonsense7,no,source_missing_term,"{""label"": ""no"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+28336,3,ett,confounding,nonsense7,no,source_missing_term,"{""label"": ""no"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+28350,3,ett,confounding,nonsense7,yes,source_missing_term,"{""label"": ""yes"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+28354,3,ett,confounding,nonsense7,no,source_missing_term,"{""label"": ""no"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+28441,1,marginal,frontdoor,nonsense7,no,precision_conflict,"{""label"": ""no"", ""answer"": ""yes"", ""status"": ""ANSWER"", ""recipe"": ""marginal""}"
+28451,1,correlation,frontdoor,nonsense7,no,precision_conflict,"{""label"": ""no"", ""answer"": ""yes"", ""status"": ""ANSWER"", ""recipe"": ""correlation""}"
+28452,1,correlation,frontdoor,nonsense7,yes,precision_conflict,"{""label"": ""yes"", ""answer"": ""no"", ""status"": ""ANSWER"", ""recipe"": ""correlation""}"
+28626,1,marginal,diamondcut,nonsense7,no,source_arithmetic,"{""label"": ""no"", ""answer"": ""yes"", ""status"": ""ANSWER"", ""recipe"": ""marginal""}"
+28887,3,ett,frontdoor,nonsense8,no,source_arithmetic,"{""label"": ""no"", ""answer"": ""yes"", ""status"": ""ANSWER"", ""recipe"": ""ett_frontdoor""}"
+28973,1,correlation,arrowhead,nonsense8,yes,precision_conflict,"{""label"": ""yes"", ""answer"": ""no"", ""status"": ""ANSWER"", ""recipe"": ""correlation""}"
+29051,1,correlation,diamond,nonsense8,no,precision_conflict,"{""label"": ""no"", ""answer"": ""yes"", ""status"": ""ANSWER"", ""recipe"": ""correlation""}"
+29062,2,ate,diamondcut,nonsense8,no,precision_conflict,"{""label"": ""no"", ""answer"": ""yes"", ""status"": ""ANSWER"", ""recipe"": ""backdoor""}"
+29215,3,ett,confounding,nonsense9,yes,source_missing_term,"{""label"": ""yes"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+29219,3,ett,confounding,nonsense9,no,source_missing_term,"{""label"": ""no"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+29227,3,ett,confounding,nonsense9,yes,source_missing_term,"{""label"": ""yes"", ""status"": ""NOT_COMPUTABLE"", ""reason"": ""MISSING_PREMISE"", ""recipe"": ""ett_backdoor""}"
+29303,1,correlation,mediation,nonsense9,no,precision_conflict,"{""label"": ""no"", ""answer"": ""yes"", ""status"": ""ANSWER"", ""recipe"": ""correlation""}"
+29349,1,correlation,frontdoor,nonsense9,yes,precision_conflict,"{""label"": ""yes"", ""answer"": ""no"", ""status"": ""ANSWER"", ""recipe"": ""correlation""}"
+29386,2,ate,IV,nonsense9,yes,precision_conflict,"{""label"": ""yes"", ""answer"": ""no"", ""status"": ""ANSWER"", ""recipe"": ""iv_wald""}"
+29696,3,det-counterfactual,diamondcut,nonsense0,yes,source_equation_mismatch,"the text says X = not V1, the reasoning field 'V1'"
+29698,3,det-counterfactual,diamondcut,nonsense0,yes,source_equation_mismatch,"the text says X = not V1, the reasoning field 'V1'"
+29699,3,det-counterfactual,diamondcut,nonsense0,no,source_equation_mismatch,"the text says X = not V1, the reasoning field 'V1'"
+29700,3,det-counterfactual,diamondcut,nonsense0,no,source_equation_mismatch,"the text says X = not V1, the reasoning field 'V1'"
+29701,3,det-counterfactual,diamondcut,nonsense0,yes,source_equation_mismatch,"the text says X = not V1, the reasoning field 'V1'"
+29702,3,det-counterfactual,diamondcut,nonsense0,yes,source_equation_mismatch,"the text says X = not V1, the reasoning field 'V1'"
+29703,3,det-counterfactual,diamondcut,nonsense0,no,source_equation_mismatch,"the text says X = not V1, the reasoning field 'V1'"
+29704,3,det-counterfactual,diamondcut,nonsense0,yes,source_equation_mismatch,"the text says X = not V1, the reasoning field 'V1'"
+29847,3,det-counterfactual,diamondcut,nonsense1,no,source_equation_mismatch,"the text says X = not V1, the reasoning field 'V1'"
+29848,3,det-counterfactual,diamondcut,nonsense1,no,source_equation_mismatch,"the text says X = not V1, the reasoning field 'V1'"
+29852,3,det-counterfactual,diamondcut,nonsense1,no,source_equation_mismatch,"the text says X = not V1, the reasoning field 'V1'"
+29853,3,det-counterfactual,diamondcut,nonsense1,yes,source_equation_mismatch,"the text says X = not V1, the reasoning field 'V1'"
+29854,3,det-counterfactual,diamondcut,nonsense1,yes,source_equation_mismatch,"the text says X = not V1, the reasoning field 'V1'"
+29855,3,det-counterfactual,diamondcut,nonsense1,no,source_equation_mismatch,"the text says X = not V1, the reasoning field 'V1'"
+29984,3,det-counterfactual,diamondcut,nonsense2,yes,source_equation_mismatch,"the text says X = not V1, the reasoning field 'V1'"
+29985,3,det-counterfactual,diamondcut,nonsense2,no,source_equation_mismatch,"the text says X = not V1, the reasoning field 'V1'"
+29986,3,det-counterfactual,diamondcut,nonsense2,no,source_equation_mismatch,"the text says X = not V1, the reasoning field 'V1'"
+29995,3,det-counterfactual,diamondcut,nonsense2,no,source_equation_mismatch,"the text says X = not V1, the reasoning field 'V1'"
+29996,3,det-counterfactual,diamondcut,nonsense2,no,source_equation_mismatch,"the text says X = not V1, the reasoning field 'V1'"
+29997,3,det-counterfactual,diamondcut,nonsense2,no,source_equation_mismatch,"the text says X = not V1, the reasoning field 'V1'"
+29998,3,det-counterfactual,diamondcut,nonsense2,yes,source_equation_mismatch,"the text says X = not V1, the reasoning field 'V1'"
+30132,3,det-counterfactual,diamondcut,nonsense3,yes,source_equation_mismatch,"the text says X = not V1, the reasoning field 'V1'"
+30133,3,det-counterfactual,diamondcut,nonsense3,no,source_equation_mismatch,"the text says X = not V1, the reasoning field 'V1'"
+30142,3,det-counterfactual,diamondcut,nonsense3,yes,source_equation_mismatch,"the text says X = not V1, the reasoning field 'V1'"
+30143,3,det-counterfactual,diamondcut,nonsense3,no,source_equation_mismatch,"the text says X = not V1, the reasoning field 'V1'"
+30273,3,det-counterfactual,diamondcut,nonsense4,no,source_equation_mismatch,"the text says X = not V1, the reasoning field 'V1'"
+30274,3,det-counterfactual,diamondcut,nonsense4,yes,source_equation_mismatch,"the text says X = not V1, the reasoning field 'V1'"
+30275,3,det-counterfactual,diamondcut,nonsense4,no,source_equation_mismatch,"the text says X = not V1, the reasoning field 'V1'"
+30285,3,det-counterfactual,diamondcut,nonsense4,no,source_equation_mismatch,"the text says X = not V1, the reasoning field 'V1'"
+30416,3,det-counterfactual,diamondcut,nonsense5,yes,source_equation_mismatch,"the text says X = not V1, the reasoning field 'V1'"
+30418,3,det-counterfactual,diamondcut,nonsense5,yes,source_equation_mismatch,"the text says X = not V1, the reasoning field 'V1'"
+30419,3,det-counterfactual,diamondcut,nonsense5,yes,source_equation_mismatch,"the text says X = not V1, the reasoning field 'V1'"
+30420,3,det-counterfactual,diamondcut,nonsense5,no,source_equation_mismatch,"the text says X = not V1, the reasoning field 'V1'"
+30425,3,det-counterfactual,diamondcut,nonsense5,no,source_equation_mismatch,"the text says X = not V1, the reasoning field 'V1'"
+30426,3,det-counterfactual,diamondcut,nonsense5,no,source_equation_mismatch,"the text says X = not V1, the reasoning field 'V1'"
+30428,3,det-counterfactual,diamondcut,nonsense5,yes,source_equation_mismatch,"the text says X = not V1, the reasoning field 'V1'"
+30569,3,det-counterfactual,diamondcut,nonsense6,yes,source_equation_mismatch,"the text says X = not V1, the reasoning field 'V1'"
+30570,3,det-counterfactual,diamondcut,nonsense6,no,source_equation_mismatch,"the text says X = not V1, the reasoning field 'V1'"
+30571,3,det-counterfactual,diamondcut,nonsense6,yes,source_equation_mismatch,"the text says X = not V1, the reasoning field 'V1'"
+30573,3,det-counterfactual,diamondcut,nonsense6,yes,source_equation_mismatch,"the text says X = not V1, the reasoning field 'V1'"
+30574,3,det-counterfactual,diamondcut,nonsense6,no,source_equation_mismatch,"the text says X = not V1, the reasoning field 'V1'"
+30704,3,det-counterfactual,diamondcut,nonsense7,yes,source_equation_mismatch,"the text says X = not V1, the reasoning field 'V1'"
+30705,3,det-counterfactual,diamondcut,nonsense7,yes,source_equation_mismatch,"the text says X = not V1, the reasoning field 'V1'"
+30706,3,det-counterfactual,diamondcut,nonsense7,yes,source_equation_mismatch,"the text says X = not V1, the reasoning field 'V1'"
+30849,3,det-counterfactual,diamondcut,nonsense8,no,source_equation_mismatch,"the text says X = not V1, the reasoning field 'V1'"
+30850,3,det-counterfactual,diamondcut,nonsense8,yes,source_equation_mismatch,"the text says X = not V1, the reasoning field 'V1'"
+30851,3,det-counterfactual,diamondcut,nonsense8,yes,source_equation_mismatch,"the text says X = not V1, the reasoning field 'V1'"
+30852,3,det-counterfactual,diamondcut,nonsense8,no,source_equation_mismatch,"the text says X = not V1, the reasoning field 'V1'"
+30854,3,det-counterfactual,diamondcut,nonsense8,yes,source_equation_mismatch,"the text says X = not V1, the reasoning field 'V1'"
+30992,3,det-counterfactual,diamondcut,nonsense9,no,source_equation_mismatch,"the text says X = not V1, the reasoning field 'V1'"
+30993,3,det-counterfactual,diamondcut,nonsense9,yes,source_equation_mismatch,"the text says X = not V1, the reasoning field 'V1'"
+30994,3,det-counterfactual,diamondcut,nonsense9,no,source_equation_mismatch,"the text says X = not V1, the reasoning field 'V1'"
+30998,3,det-counterfactual,diamondcut,nonsense9,no,source_equation_mismatch,"the text says X = not V1, the reasoning field 'V1'"
+30999,3,det-counterfactual,diamondcut,nonsense9,yes,source_equation_mismatch,"the text says X = not V1, the reasoning field 'V1'"
+31000,3,det-counterfactual,diamondcut,nonsense9,yes,source_equation_mismatch,"the text says X = not V1, the reasoning field 'V1'"
+31001,3,det-counterfactual,diamondcut,nonsense9,no,source_equation_mismatch,"the text says X = not V1, the reasoning field 'V1'"

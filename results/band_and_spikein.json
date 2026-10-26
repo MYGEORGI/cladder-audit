@@ -1,0 +1,60 @@
+{
+ "band_census": {
+  "agree | band": 397,
+  "agree | no band": 9449,
+  "degenerate_premise | no band": 9,
+  "precision_conflict | band": 96,
+  "source_arithmetic | no band": 26,
+  "source_missing_term | no band": 135
+ },
+ "band_by_query_type": {
+  "ate": 70,
+  "correlation": 253,
+  "ett": 29,
+  "exp_away": 22,
+  "marginal": 56,
+  "nde": 16,
+  "nie": 47
+ },
+ "spike_in_flipped_agree": {
+  "precision_conflict": 397,
+  "source_arithmetic": 4367,
+  "unexplained": 5082
+ },
+ "source_arithmetic_evidence_real": {
+  "ett | foreign_terms": 3,
+  "ett | self_contradicting+foreign_terms": 1,
+  "marginal | self_contradicting+formula_contradicting": 9,
+  "nde | self_contradicting+foreign_terms+formula_contradicting": 5,
+  "nie | formula_contradicting": 1,
+  "nie | self_contradicting": 4,
+  "nie | self_contradicting+foreign_terms": 1,
+  "nie | self_contradicting+formula_contradicting": 2
+ },
+ "source_arithmetic_evidence_planted": {
+  "ate | formula_contradicting": 51,
+  "ate | self_contradicting": 183,
+  "ate | self_contradicting+formula_contradicting": 299,
+  "correlation | self_contradicting+formula_contradicting": 883,
+  "ett | foreign_terms": 2,
+  "ett | self_contradicting": 39,
+  "ett | self_contradicting+foreign_terms": 207,
+  "ett | self_contradicting+foreign_terms+formula_contradicting": 46,
+  "ett | self_contradicting+formula_contradicting": 232,
+  "exp_away | self_contradicting+formula_contradicting": 90,
+  "marginal | formula_contradicting": 1,
+  "marginal | self_contradicting": 1001,
+  "marginal | self_contradicting+formula_contradicting": 510,
+  "nde | foreign_terms+formula_contradicting": 1,
+  "nde | self_contradicting": 13,
+  "nde | self_contradicting+foreign_terms": 143,
+  "nde | self_contradicting+foreign_terms+formula_contradicting": 115,
+  "nde | self_contradicting+formula_contradicting": 23,
+  "nie | foreign_terms": 2,
+  "nie | foreign_terms+formula_contradicting": 1,
+  "nie | self_contradicting": 196,
+  "nie | self_contradicting+foreign_terms": 114,
+  "nie | self_contradicting+foreign_terms+formula_contradicting": 32,
+  "nie | self_contradicting+formula_contradicting": 183
+ }
+}

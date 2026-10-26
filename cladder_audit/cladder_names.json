@@ -1,0 +1,479 @@
+{
+ "alarm|mediation": {
+  "wife": "V2"
+ },
+ "blood_pressure|mediation": {
+  "blood pressure": "V2"
+ },
+ "candle|fork": {
+  "the candle": "V2"
+ },
+ "celebrity|collision": {
+  "fame": "V3"
+ },
+ "cholesterol|IV": {
+  "treatment assignment": "V2",
+  "unobserved confounders": "V1"
+ },
+ "college_salary|chain": {
+  "skill": "V2"
+ },
+ "college_wage|IV": {
+  "proximity to a college": "V2",
+  "unobserved confounders": "V1"
+ },
+ "elite_students|collision": {
+  "elite institution admission status": "V3"
+ },
+ "encouagement_program|mediation": {
+  "studying habit": "V2"
+ },
+ "firing_employee|diamondcut": {
+  "ceo": "V1",
+  "director": "V3"
+ },
+ "firing_squad|diamond": {
+  "the corporal": "V2",
+  "the private": "V3"
+ },
+ "floor_wet|diamond": {
+  "sprinkler": "V3",
+  "weather": "V2"
+ },
+ "forest_fire|fork": {
+  "the smoker": "V2"
+ },
+ "gender_admission_state|arrowhead": {
+  "department competitiveness": "V3",
+  "residency status": "V2"
+ },
+ "gender_admission|mediation": {
+  "department competitiveness": "V2"
+ },
+ "gender_pay|arrowhead": {
+  "occupation": "V3",
+  "skill": "V2"
+ },
+ "getting_late|fork": {
+  "traffic": "V2"
+ },
+ "getting_tanned|fork": {
+  "going to the beach": "V2"
+ },
+ "hospitalization|collision": {
+  "hospitalization status": "V3"
+ },
+ "man_in_relationship|collision": {
+  "relationship status": "V3"
+ },
+ "nature_vs_nurture|arrowhead": {
+  "other unobserved factors": "V2",
+  "parents' social status": "V3"
+ },
+ "neg_mediation|mediation": {
+  "effort": "V2"
+ },
+ "nonsense0|IV": {
+  "swoy": "V1",
+  "zuph": "V2"
+ },
+ "nonsense0|arrowhead": {
+  "swoy": "V2",
+  "zuph": "V3"
+ },
+ "nonsense0|chain": {
+  "zuph": "V2"
+ },
+ "nonsense0|collision": {
+  "zuph": "V3"
+ },
+ "nonsense0|confounding": {
+  "zuph": "V1"
+ },
+ "nonsense0|diamond": {
+  "swoy": "V3",
+  "zuph": "V2"
+ },
+ "nonsense0|diamondcut": {
+  "swoy": "V3",
+  "zuph": "V1"
+ },
+ "nonsense0|fork": {
+  "zuph": "V2"
+ },
+ "nonsense0|frontdoor": {
+  "swoy": "V1",
+  "zuph": "V3"
+ },
+ "nonsense0|mediation": {
+  "zuph": "V2"
+ },
+ "nonsense1|IV": {
+  "muvy": "V1",
+  "swoq": "V2"
+ },
+ "nonsense1|arrowhead": {
+  "muvy": "V2",
+  "swoq": "V3"
+ },
+ "nonsense1|chain": {
+  "swoq": "V2"
+ },
+ "nonsense1|collision": {
+  "swoq": "V3"
+ },
+ "nonsense1|confounding": {
+  "swoq": "V1"
+ },
+ "nonsense1|diamond": {
+  "muvy": "V3",
+  "swoq": "V2"
+ },
+ "nonsense1|diamondcut": {
+  "muvy": "V3",
+  "swoq": "V1"
+ },
+ "nonsense1|fork": {
+  "swoq": "V2"
+ },
+ "nonsense1|frontdoor": {
+  "muvy": "V1",
+  "swoq": "V3"
+ },
+ "nonsense1|mediation": {
+  "swoq": "V2"
+ },
+ "nonsense2|IV": {
+  "tijv": "V2",
+  "tijw": "V1"
+ },
+ "nonsense2|arrowhead": {
+  "tijv": "V3",
+  "tijw": "V2"
+ },
+ "nonsense2|chain": {
+  "tijv": "V2"
+ },
+ "nonsense2|collision": {
+  "tijv": "V3"
+ },
+ "nonsense2|confounding": {
+  "tijv": "V1"
+ },
+ "nonsense2|diamond": {
+  "tijv": "V2",
+  "tijw": "V3"
+ },
+ "nonsense2|diamondcut": {
+  "tijv": "V1",
+  "tijw": "V3"
+ },
+ "nonsense2|fork": {
+  "tijv": "V2"
+ },
+ "nonsense2|frontdoor": {
+  "tijv": "V3",
+  "tijw": "V1"
+ },
+ "nonsense2|mediation": {
+  "tijv": "V2"
+ },
+ "nonsense3|IV": {
+  "cwoi": "V1",
+  "gwet": "V2"
+ },
+ "nonsense3|arrowhead": {
+  "cwoi": "V2",
+  "gwet": "V3"
+ },
+ "nonsense3|chain": {
+  "gwet": "V2"
+ },
+ "nonsense3|collision": {
+  "gwet": "V3"
+ },
+ "nonsense3|confounding": {
+  "gwet": "V1"
+ },
+ "nonsense3|diamond": {
+  "cwoi": "V3",
+  "gwet": "V2"
+ },
+ "nonsense3|diamondcut": {
+  "cwoi": "V3",
+  "gwet": "V1"
+ },
+ "nonsense3|fork": {
+  "gwet": "V2"
+ },
+ "nonsense3|frontdoor": {
+  "cwoi": "V1",
+  "gwet": "V3"
+ },
+ "nonsense3|mediation": {
+  "gwet": "V2"
+ },
+ "nonsense4|IV": {
+  "gyzp": "V1",
+  "hwax": "V2"
+ },
+ "nonsense4|arrowhead": {
+  "gyzp": "V2",
+  "hwax": "V3"
+ },
+ "nonsense4|chain": {
+  "hwax": "V2"
+ },
+ "nonsense4|collision": {
+  "hwax": "V3"
+ },
+ "nonsense4|confounding": {
+  "hwax": "V1"
+ },
+ "nonsense4|diamond": {
+  "gyzp": "V3",
+  "hwax": "V2"
+ },
+ "nonsense4|diamondcut": {
+  "gyzp": "V3",
+  "hwax": "V1"
+ },
+ "nonsense4|fork": {
+  "hwax": "V2"
+ },
+ "nonsense4|frontdoor": {
+  "gyzp": "V1",
+  "hwax": "V3"
+ },
+ "nonsense4|mediation": {
+  "hwax": "V2"
+ },
+ "nonsense5|IV": {
+  "qwiu": "V1",
+  "yupt": "V2"
+ },
+ "nonsense5|arrowhead": {
+  "qwiu": "V2",
+  "yupt": "V3"
+ },
+ "nonsense5|chain": {
+  "yupt": "V2"
+ },
+ "nonsense5|collision": {
+  "yupt": "V3"
+ },
+ "nonsense5|confounding": {
+  "yupt": "V1"
+ },
+ "nonsense5|diamond": {
+  "qwiu": "V3",
+  "yupt": "V2"
+ },
+ "nonsense5|diamondcut": {
+  "qwiu": "V3",
+  "yupt": "V1"
+ },
+ "nonsense5|fork": {
+  "yupt": "V2"
+ },
+ "nonsense5|frontdoor": {
+  "qwiu": "V1",
+  "yupt": "V3"
+ },
+ "nonsense5|mediation": {
+  "yupt": "V2"
+ },
+ "nonsense6|IV": {
+  "xyfo": "V1",
+  "zupj": "V2"
+ },
+ "nonsense6|arrowhead": {
+  "xyfo": "V2",
+  "zupj": "V3"
+ },
+ "nonsense6|chain": {
+  "zupj": "V2"
+ },
+ "nonsense6|collision": {
+  "zupj": "V3"
+ },
+ "nonsense6|confounding": {
+  "zupj": "V1"
+ },
+ "nonsense6|diamond": {
+  "xyfo": "V3",
+  "zupj": "V2"
+ },
+ "nonsense6|diamondcut": {
+  "xyfo": "V3",
+  "zupj": "V1"
+ },
+ "nonsense6|fork": {
+  "zupj": "V2"
+ },
+ "nonsense6|frontdoor": {
+  "xyfo": "V1",
+  "zupj": "V3"
+ },
+ "nonsense6|mediation": {
+  "zupj": "V2"
+ },
+ "nonsense7|IV": {
+  "vubr": "V1",
+  "wibl": "V2"
+ },
+ "nonsense7|arrowhead": {
+  "vubr": "V2",
+  "wibl": "V3"
+ },
+ "nonsense7|chain": {
+  "wibl": "V2"
+ },
+ "nonsense7|collision": {
+  "wibl": "V3"
+ },
+ "nonsense7|confounding": {
+  "wibl": "V1"
+ },
+ "nonsense7|diamond": {
+  "vubr": "V3",
+  "wibl": "V2"
+ },
+ "nonsense7|diamondcut": {
+  "vubr": "V3",
+  "wibl": "V1"
+ },
+ "nonsense7|fork": {
+  "wibl": "V2"
+ },
+ "nonsense7|frontdoor": {
+  "vubr": "V1",
+  "wibl": "V3"
+ },
+ "nonsense7|mediation": {
+  "wibl": "V2"
+ },
+ "nonsense8|IV": {
+  "hwax": "V2",
+  "kraz": "V1"
+ },
+ "nonsense8|arrowhead": {
+  "hwax": "V3",
+  "kraz": "V2"
+ },
+ "nonsense8|chain": {
+  "hwax": "V2"
+ },
+ "nonsense8|collision": {
+  "hwax": "V3"
+ },
+ "nonsense8|confounding": {
+  "hwax": "V1"
+ },
+ "nonsense8|diamond": {
+  "hwax": "V2",
+  "kraz": "V3"
+ },
+ "nonsense8|diamondcut": {
+  "hwax": "V1",
+  "kraz": "V3"
+ },
+ "nonsense8|fork": {
+  "hwax": "V2"
+ },
+ "nonsense8|frontdoor": {
+  "hwax": "V3",
+  "kraz": "V1"
+ },
+ "nonsense8|mediation": {
+  "hwax": "V2"
+ },
+ "nonsense9|IV": {
+  "jyka": "V2",
+  "zory": "V1"
+ },
+ "nonsense9|arrowhead": {
+  "jyka": "V3",
+  "zory": "V2"
+ },
+ "nonsense9|chain": {
+  "jyka": "V2"
+ },
+ "nonsense9|collision": {
+  "jyka": "V3"
+ },
+ "nonsense9|confounding": {
+  "jyka": "V1"
+ },
+ "nonsense9|diamond": {
+  "jyka": "V2",
+  "zory": "V3"
+ },
+ "nonsense9|diamondcut": {
+  "jyka": "V1",
+  "zory": "V3"
+ },
+ "nonsense9|fork": {
+  "jyka": "V2"
+ },
+ "nonsense9|frontdoor": {
+  "jyka": "V3",
+  "zory": "V1"
+ },
+ "nonsense9|mediation": {
+  "jyka": "V2"
+ },
+ "obesity_mortality|arrowhead": {
+  "diabetes": "V3",
+  "smoking": "V2"
+ },
+ "orange_scurvy|chain": {
+  "vitmain c": "V2"
+ },
+ "penguin|mediation": {
+  "penguin mood": "V2"
+ },
+ "price|IV": {
+  "demand": "V1",
+  "yield per acre": "V2"
+ },
+ "simpson_drug|confounding": {
+  "gender": "V1"
+ },
+ "simpson_hospital|confounding": {
+  "age": "V1"
+ },
+ "simpson_kidneystone|confounding": {
+  "kidney stone size": "V1"
+ },
+ "simpson_vaccine|confounding": {
+  "pre-conditions": "V1"
+ },
+ "smoke_birthWeight|arrowhead": {
+  "health condition": "V2",
+  "infant's birth weight": "V3"
+ },
+ "smoking_frontdoor|frontdoor": {
+  "gender": "V1",
+  "tar deposit": "V3"
+ },
+ "smoking_gene_cancer|arrowhead": {
+  "pollution": "V2",
+  "smoking": "V3"
+ },
+ "smoking_tar_cancer|chain": {
+  "tar deposit": "V2"
+ },
+ "tax_smoke_birthWeight|IV": {
+  "cigarette tax": "V2",
+  "unobserved confounders": "V1"
+ },
+ "vaccine_kills|diamond": {
+  "getting smallpox": "V2",
+  "vaccination reaction": "V3"
+ },
+ "water_cholera|IV": {
+  "poverty": "V1",
+  "water company": "V2"
+ }
+}
