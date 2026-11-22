@@ -1,6 +1,6 @@
 # Does the text of a task determine its gold answer? Audit of CLadder v1.5
 
-Artifact of the paper: Georgi M.Yu. Does the Task Text Determine Its Gold Answer? Auditing CLadder Through Exact Re-computation. Trudy ISP RAN/Proc. ISP RAS, 2026 (Open Conference of ISP RAS 2026). Cite the paper together with release v1.0 of this repository (`CITATION.cff`); the release is archived in Software Heritage.
+Artifact of the paper: Georgi M.Yu. Does the Task Text Determine Its Gold Answer? Auditing CLadder Through Exact Re-computation. Trudy ISP RAN/Proc. ISP RAS, 2026 (Open Conference of ISP RAS 2026). Cite the paper together with release v1.0 of this repository (`CITATION.cff`).
 
 It contains the verdict for every one of the 10,112 tasks of CLadder v1.5 under two readings of the printed numbers, the solver that computes them, and the scripts that reproduce every result file from the pinned public data.
 

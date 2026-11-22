@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use these verdicts or the checking program, please cite the paper and release v1.0 of this repository (archived in Software Heritage)."
+message: "If you use these verdicts or the checking program, please cite the paper and release v1.0 of this repository."
 title: "cladder-audit: per-task verdicts and checking program for the CLadder v1.5 audit"
 authors:
   - family-names: Georgi
