@@ -43,7 +43,7 @@ python -B scripts/model_eval.py --model <model>  # paid; needs OPENROUTER_API_KE
 python -B scripts/model_eval_summary.py
 ```
 
-Every run is deterministic: two runs give byte-identical files. SHA-256 of `results/solver_check.json`: `7ae39c5248e936825fc1d5b44fe7f42ea72912685525bd1ae94406b87d5feef6`. `cladder_v15_defects.csv` is shipped as computed; `examples.py` reads it.
+Every audit run is deterministic: two runs give byte-identical files. The exception is `model_eval.py`: a paid API may answer slightly differently when asked again, even at temperature 0, so the model answers in `results/model_eval/` are the recorded ones, and `model_eval_summary.py` reproduces the statistics from them byte for byte. SHA-256 of `results/solver_check.json`: `7ae39c5248e936825fc1d5b44fe7f42ea72912685525bd1ae94406b87d5feef6`. `cladder_v15_defects.csv` is shipped as computed; `examples.py` reads it.
 
 Pinned inputs (`inputs.json`):
 
