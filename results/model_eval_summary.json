@@ -1,0 +1,188 @@
+{
+ "subsets": {
+  "all": 10112,
+  "solvable (R)": 9580,
+  "text-undetermined (R)": 532,
+  "certified undetermined": 459,
+  "contradictions (R)": 26
+ },
+ "models": {
+  "anthropic/claude-haiku-5.5": {
+   "answered": 10112,
+   "cost_usd": 0.3036,
+   "all": {
+    "tasks": 10112,
+    "correct": 5974,
+    "invalid": 163,
+    "accuracy": 0.5908,
+    "wilson95": [
+     0.5812,
+     0.6003
+    ]
+   },
+   "solvable (R)": {
+    "tasks": 9580,
+    "correct": 5679,
+    "invalid": 149,
+    "accuracy": 0.5928,
+    "wilson95": [
+     0.5829,
+     0.6026
+    ]
+   },
+   "text-undetermined (R)": {
+    "tasks": 532,
+    "correct": 295,
+    "invalid": 14,
+    "accuracy": 0.5545,
+    "wilson95": [
+     0.512,
+     0.5962
+    ]
+   },
+   "certified undetermined": {
+    "tasks": 459,
+    "correct": 248,
+    "invalid": 14,
+    "accuracy": 0.5403,
+    "wilson95": [
+     0.4946,
+     0.5854
+    ]
+   },
+   "contradictions (R)": {
+    "tasks": 26,
+    "correct": 16,
+    "invalid": 1,
+    "accuracy": 0.6154,
+    "wilson95": [
+     0.4253,
+     0.7757
+    ]
+   },
+   "undetermined: equals the literal answer": {
+    "tasks": 494,
+    "equal": 298,
+    "share": 0.6032
+   }
+  },
+  "openai/gpt-4o-mini": {
+   "answered": 10112,
+   "cost_usd": 0.2257,
+   "all": {
+    "tasks": 10112,
+    "correct": 6215,
+    "invalid": 0,
+    "accuracy": 0.6146,
+    "wilson95": [
+     0.6051,
+     0.6241
+    ]
+   },
+   "solvable (R)": {
+    "tasks": 9580,
+    "correct": 5927,
+    "invalid": 0,
+    "accuracy": 0.6187,
+    "wilson95": [
+     0.6089,
+     0.6284
+    ]
+   },
+   "text-undetermined (R)": {
+    "tasks": 532,
+    "correct": 288,
+    "invalid": 0,
+    "accuracy": 0.5414,
+    "wilson95": [
+     0.4989,
+     0.5832
+    ]
+   },
+   "certified undetermined": {
+    "tasks": 459,
+    "correct": 243,
+    "invalid": 0,
+    "accuracy": 0.5294,
+    "wilson95": [
+     0.4837,
+     0.5746
+    ]
+   },
+   "contradictions (R)": {
+    "tasks": 26,
+    "correct": 10,
+    "invalid": 0,
+    "accuracy": 0.3846,
+    "wilson95": [
+     0.2243,
+     0.5747
+    ]
+   },
+   "undetermined: equals the literal answer": {
+    "tasks": 494,
+    "equal": 292,
+    "share": 0.5911
+   }
+  },
+  "qwen/qwen3-32b": {
+   "answered": 10112,
+   "cost_usd": 3.9761,
+   "all": {
+    "tasks": 10112,
+    "correct": 8584,
+    "invalid": 222,
+    "accuracy": 0.8489,
+    "wilson95": [
+     0.8418,
+     0.8557
+    ]
+   },
+   "solvable (R)": {
+    "tasks": 9580,
+    "correct": 8203,
+    "invalid": 185,
+    "accuracy": 0.8563,
+    "wilson95": [
+     0.8491,
+     0.8631
+    ]
+   },
+   "text-undetermined (R)": {
+    "tasks": 532,
+    "correct": 381,
+    "invalid": 37,
+    "accuracy": 0.7162,
+    "wilson95": [
+     0.6764,
+     0.7528
+    ]
+   },
+   "certified undetermined": {
+    "tasks": 459,
+    "correct": 319,
+    "invalid": 37,
+    "accuracy": 0.695,
+    "wilson95": [
+     0.6514,
+     0.7353
+    ]
+   },
+   "contradictions (R)": {
+    "tasks": 26,
+    "correct": 5,
+    "invalid": 2,
+    "accuracy": 0.1923,
+    "wilson95": [
+     0.0851,
+     0.3788
+    ]
+   },
+   "undetermined: equals the literal answer": {
+    "tasks": 494,
+    "equal": 451,
+    "share": 0.913
+   }
+  }
+ }
+}

@@ -1,0 +1,15 @@
+{
+ "tasks": 10031,
+ "summary": {
+  "change_number caught (refused: probability sentence matches no premise by value and variables)": 6952,
+  "change_number not applicable": 3079,
+  "drop_probability caught (refused: premises not stated in the prompt)": 6952,
+  "drop_probability not applicable": 3079,
+  "reverse_edge caught (refused: graph description matches no generator model)": 10031
+ },
+ "missed": {
+  "drop_probability": [],
+  "reverse_edge": [],
+  "change_number": []
+ }
+}

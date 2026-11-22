@@ -1,6 +1,6 @@
 # Does the text of a task determine its gold answer? Audit of CLadder v1.5
 
-Artifact of the paper "Does the Text of a Task Determine Its Gold Answer? An Exact Re-Computation Audit of the CLadder Causal Reasoning Benchmark" (anonymized for double-blind review).
+Artifact of the paper: Georgi M.Yu. Does the Task Text Determine Its Gold Answer? Auditing CLadder Through Exact Re-computation. Trudy ISP RAN/Proc. ISP RAS, 2026 (Open Conference of ISP RAS 2026). Cite the archived release (DOI in `CITATION.cff`) together with the paper.
 
 It contains the verdict for every one of the 10,112 tasks of CLadder v1.5 under two readings of the printed numbers, the solver that computes them, and the scripts that reproduce every result file from the pinned public data.
 
@@ -17,10 +17,15 @@ It contains the verdict for every one of the 10,112 tasks of CLadder v1.5 under 
 | `band_and_spikein.json` | Census of the rounding band and the spike-in test (labels of agreeing tasks flipped) |
 | `ett_meta_check.json` | The 158 ETT tasks on the `confounding` graph against the generator's SCMs |
 | `examples.txt` | Worked examples and witnesses (two text-compatible value sets with opposite answers) |
+| `repairs.csv` | Every rule-based repair of the `reasoning` field (1,422 `P(X=1=1)` typos, 316 equation operands), as printed and as read, with the result of the prompt check; the prompt and the label are never changed |
+| `perturb_check.json` | Prompt corruption test: one deleted probability sentence, one changed percentage, one reversed edge per aligned task; every corruption is rejected |
+| `single_model.json` | The 493 rounding-band tasks under a single-model requirement: for each, two parameterizations of one Bayesian network on the task's graph whose printed probabilities lie in the rounding box and whose answers differ, verified in exact arithmetic (420 tasks), or the reason there is none (41 one-answer, 32 boundary) |
+| `model_eval/*.jsonl` | Answers of three language models (OpenRouter, temperature 0) to every task, with tokens and cost |
+| `model_eval_summary.json` | Their accuracy on all, solvable, undetermined and contradicting tasks, with 95% Wilson intervals |
 
 ## Reproduction
 
-Python 3.11 or later.
+Python 3.11 or later. `numpy` and `scipy` are needed only by `single_model.py`; `model_eval.py` calls a paid API.
 
 ```
 pip install -r requirements.txt
@@ -31,6 +36,11 @@ python -B scripts/readings.py . results
 python -B scripts/band_and_spikein.py . results/band_and_spikein.json
 python -B scripts/ett_meta_check.py data/raw/cladder/full_v1.5_default.csv data/raw/cladder_meta/data/cladder-v1-meta-models.json results/solver_check.json results/ett_meta_check.json
 python -B scripts/examples.py . results > results/examples.txt
+python -B scripts/repairs.py
+python -B scripts/perturb_check.py
+python -B scripts/single_model.py                # needs numpy and scipy (the search only; certificates are exact)
+python -B scripts/model_eval.py --model <model>  # paid; needs OPENROUTER_API_KEY; resumes from results/model_eval
+python -B scripts/model_eval_summary.py
 ```
 
 Every run is deterministic: two runs give byte-identical files. SHA-256 of `results/solver_check.json`: `7ae39c5248e936825fc1d5b44fe7f42ea72912685525bd1ae94406b87d5feef6`. `cladder_v15_defects.csv` is shipped as computed; `examples.py` reads it.
@@ -45,6 +55,11 @@ Pinned inputs (`inputs.json`):
 - `cladder.py` — a CLadder record to atomic premises (graph edges, unobserved variables, probabilities, structural equations) and a question, read from the structured fields; generator typos are repaired by explicit rules;
 - `solver.py` — the estimand recipes, evaluated in exact fractions; the rounding interval by enumeration of the box vertices;
 - `parsers/`, `transfer.py` — matching of prompt sentences to premises by the generator's verbal forms, and the rename-and-read-back check used by `match_check.py`.
+
+## Versions
+
+- `v0.1-review` (commit cc531bb): the files behind the submitted paper, shared anonymously for double-blind review.
+- `v1.0`: adds the revision for the reviewers (repairs list, prompt corruption test, single-model check, model evaluation); every result file of `v0.1-review` is unchanged.
 
 ## Licence
 
