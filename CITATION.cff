@@ -3,7 +3,7 @@ message: "If you use these verdicts or the checking program, please cite the pap
 title: "cladder-audit: per-task verdicts and checking program for the CLadder v1.5 audit"
 authors:
   - family-names: Georgi
-    given-names: Mikhail Yurievich
+    given-names: Mikhail
     affiliation: "Institute of Computer Technologies and Information Security, Southern Federal University"
     orcid: "https://orcid.org/0009-0009-5256-2922"
 version: "1.0"
@@ -14,7 +14,7 @@ preferred-citation:
   type: article
   authors:
     - family-names: Georgi
-      given-names: Mikhail Yurievich
+      given-names: Mikhail
   title: "Does the Task Text Determine Its Gold Answer? Auditing CLadder Through Exact Re-computation"
   journal: "Trudy ISP RAN / Proceedings of ISP RAS"
   year: 2026
