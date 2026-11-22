@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use these verdicts or the checking program, please cite the paper and this archived release."
+message: "If you use these verdicts or the checking program, please cite the paper and release v1.0 of this repository (archived in Software Heritage)."
 title: "cladder-audit: per-task verdicts and checking program for the CLadder v1.5 audit"
 authors:
   - family-names: Georgi
@@ -9,7 +9,7 @@ authors:
 version: "1.0"
 license: MIT
 repository-code: "https://github.com/MYGEORGI/cladder-audit"
-doi: "10.5281/zenodo.TO-BE-ASSIGNED"
+date-released: "2026-11-23"
 preferred-citation:
   type: article
   authors:
